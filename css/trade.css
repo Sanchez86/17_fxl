@@ -1,0 +1,375 @@
+.menue_for_open_account {
+    background-image: url('../images/marketing/bg_menue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub_form {
+    background-image: url('../images/open_account/bg_open_account.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.open_account {
+    padding-bottom: 88px;
+}
+
+.sub_logo_open_account {
+    margin-top: 71px;
+    margin-bottom: 38px;
+}
+
+.sub_logo_open_account img {
+    width: 100%;
+    max-width: 1286px;
+}
+
+.wrap_open_account table {
+    width: 100%;
+}
+
+.wrap_open_account h2 {
+    display: inline-block;
+    font-family: 'WhitneyBook';
+    font-size: 30px;
+    color: #000000;
+}
+
+.personal_information {
+    max-width: 525px;
+    margin-left: 19px;
+}
+
+.personal_information:hover h2,
+.account_information:hover h2 {
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #edd680 0%,#a7864e 40%);
+    background: linear-gradient(to right, #edd680 0%,#a7864e 40%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.required {
+    text-align: right;
+    color: #9d0101;
+    font-size: 12px;
+    font-family: 'Roboto-Light';
+    margin-top: 11px;
+    margin-bottom: 14px;
+    margin-right: 4px;
+}
+
+.menue_for_open_account .wrap_open_account label {
+    color: #2b2b2b;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+}
+
+.menue_for_open_account .wrap_open_account label span {
+    color: #9d0101;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+}
+
+.open_account input,
+.open_account select {
+    width: 100%;
+    max-width: 350px;
+    height: 41px;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #2b2b2b;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+    border: 1px solid #acacac;
+    border-radius: 0;
+}
+
+.wrap_open_account td {
+    padding-bottom: 14px;
+}
+
+.wrap_open_account tr td:first-child {
+    max-width: 200px;
+}
+
+.wrap_open_account tr td:last-child {
+    text-align: right;
+}
+
+.wrap_open_account .telephoneCode {
+    max-width: 91px;
+    border-right: 0;
+    margin-right: -5px;
+}
+
+.wrap_open_account .telephoneNumber {
+    width: 259px;
+}
+
+.wrap_open_account .birthD,
+.wrap_open_account .birthM {
+    max-width: 91px;
+    margin-right: 9px;
+}
+
+.wrap_open_account .birthY {
+    max-width: 141px;
+}
+
+.wrap_open_account select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    line-height: 18px;
+    background-image: url('../images/open_account/caretka.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+.wrap_open_account .base_currency {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.account_information table tr td:first-child {
+    max-width: 130px;
+}
+
+.account_information table tr td:last-child {
+    padding-left: 0;
+}
+
+.account_information {
+    max-width: 578px;
+    padding-left: 8px;
+}
+
+.wrap_open_account .account_information h2 {
+    letter-spacing: 0.85px;
+}
+
+.forCaptha {
+    background-color: #2b2b2b;
+    font-size: 15px;
+    color: #e3e3e3;
+    font-family: 'Roboto-Light';
+    height: 41px;
+    text-align: center;
+    padding-top: 13px;
+    max-width: 350px;
+    margin-left: 7px;
+    float: right;
+    width: 100%;
+}
+
+.menue_for_open_account input[type="checkbox"] {
+    display: none;
+}
+/*
+#c1 + label span,
+#c2 + label span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url('../images/open_account/checkbox.png') left top no-repeat;
+    cursor: pointer;
+}
+
+#c1:checked + label span,
+#c2:checked + label span {
+    background: url('../images/open_account/checkbox.png') -15px top no-repeat;
+}
+    */
+.open_account_checkbox {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-family: 'WhitneyBook';
+}
+
+.checkbox_block {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+
+/*menue_for_open_account*/
+.menue_for_open_account .navbar-default .navbar-nav > li > a {
+    margin-top: -4px;
+    margin-bottom: 4px;
+    padding: 0 1vw;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menue_for_open_account .navbar-default {
+    border: 0;
+}
+
+.menue_for_open_account .navbar {
+    min-height: 49px;
+}
+
+.navBarRight.navBarRight_for_open_account {
+    margin-right: 17px;
+    margin-top: 42px;
+}
+
+.navBarRight_for_open_account a.active {
+    background: none !important;
+    -webkit-text-fill-color: inherit !important;
+    color: #dfdcdc;
+    border: 1px solid #dcb966 !important;
+    margin-left: 23px;
+}
+
+.collapse .navBarRight_for_open_account a span {
+    background-color: #ddbb68;
+    height: 1px;
+    width: 17px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.menue_for_open_account hr {
+    border-top: 1px solid #303030;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.menue_for_open_account .navbar-default {
+    top: 0;
+    background-image: url(../images/marketing/bg_menue.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menue_for_open_account .navbar-default .navbar-toggle {
+    margin-right: 0;
+}
+
+.isSafari .sub_logo_open_account {
+    margin-top: 76px;
+    margin-bottom: 60px;
+}
+.switchReal,
+.switchReal:hover,
+.switchReal:focus,
+.switchReal.active {
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+    color: #dfdcdc;
+    border: 1px solid #dcb966;
+    border-radius: 20px;
+    padding: 9px 24px;
+    outline: 0;
+    text-decoration: none;
+    margin-right: 96px;
+}
+.menue_trade {
+    float: right;
+    margin-top: 46px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menue_trade_time {
+    color: #dfdcdc;
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+    margin-right: 40px;
+}
+.menue_trade_time sup {
+    font-size: 10px;
+    text-transform:uppercase;
+    margin-left:3px;
+}
+.menue_trade_settings {
+    color: #bbbaba;
+    font-family: 'WhitneyBook';
+    font-size: 16px;
+    text-transform: uppercase;
+    background-image: url('../images/settings.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+.menue_trade_settings:focus,
+.menue_trade_settings:hover {
+    color: #fff;
+}
+.menue_for_open_account .account_type_icon {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'WhitneyMedium';
+    line-height: 26px;
+    background-color: #989898;
+    text-transform: uppercase;
+    width: 106px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.menue_trade_down{
+    padding-left:15px;
+    padding-right:30px;
+}
+.menue_trade_userName{
+    text-align:right;
+    position:relative;
+}
+.menue_trade_userName>span {
+    width:auto!important;
+    color: #dfdcdc;
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+    line-height: 50px;
+    background-image: url('../images/open_account/caretkaWhite.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 14px;
+    cursor:pointer;
+}
+.menue_trade_dropdown {
+    display:none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    width: 100%;
+    max-width: 234px;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6)
+}
+.menue_trade_dropdown.active{
+    display:block;
+}
+.menue_trade_userName li {
+    border-bottom: 1px solid #c9c9c9;
+    line-height: 34px;
+}
+.menue_trade_userName li,
+.menue_trade_dropdown a {
+    text-align: left;
+    color: #111111;
+    font-size: 12px;
+    font-family: 'Roboto-Light';
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menue_trade_dropdown a {
+    line-height: 24px;
+    text-decoration: none;
+    background: none;
+    padding:0;
+}
+.menue_trade_dropdown span {
+    float: right;
+    color: #c79637;
+}

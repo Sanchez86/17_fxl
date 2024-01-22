@@ -1,0 +1,234 @@
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.mens_block_lineY_abs {
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+}
+.row-flex .accMini,
+.row-flex .accSilver,
+.row-flex .accGold {
+    min-height: 120vh;
+    height: 100%;
+    background-color: #171717;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.header_marketing {
+    background-image: url('../images/marketing/bg_menue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap_account_type {
+    background-color: #131313;
+    background-image: url('../images/account_types/account_t_bg.png');
+    background-repeat: no-repeat;
+    background-position-y: 24px;
+}
+
+.account_type_blocks {
+    background-image: url('../images/account_types/account_t_bg_bottom.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 143px;
+}
+
+.account_type_header_left {
+    width: 50%;
+    float: left;
+}
+
+.account_type_header_right {
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 16px;
+}
+
+.account_type_header_left img {
+    width: 100%;
+    max-width: 938px;
+}
+
+.account_type_header {
+    padding-top: 111px;
+    padding-bottom: 63px;
+}
+
+.account_type_header_right p {
+    color: #dfdfdf;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+    line-height: 36px;
+    max-width: 500px;
+}
+
+.account_type_blocks_header {
+    background-color: #1a1a1a;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 233px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+.accMini,
+.accSilver {
+    max-width: 357px;
+}
+
+.accMini, .accGold, .accSilver {
+    box-shadow: -1px -3px 20px 11px rgba(0, 0, 0, 0.32);
+    margin: 0 auto;
+}
+
+    .accMini .account_type_blocks_header {
+        background-image: url('../images/account_types/accMini.png');
+    }
+
+    .accGold .account_type_blocks_header {
+        background-image: url('../images/account_types/accGold.png');
+    }
+
+    .accSilver .account_type_blocks_header {
+        background-image: url('../images/account_types/accSilver.png');
+    }
+
+.account_type_blocks_header h3 {
+    color: #dfdfdf;
+    font-size: 37px;
+    font-family: 'WhitneyMedium';
+    max-width: 160px;
+    float: right;
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.gradient {
+    display: inline-block;
+}
+
+.account_type_blocks_header h4 {
+    font-weight: bold;
+    font-size: 18px;
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 75%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 75%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 20px;
+    font-family: 'WhitneyMedium';
+    position: relative;
+}
+
+    .account_type_blocks_header h4:before {
+        content: "";
+        background-image: url('../images/account_types/account_t_line.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: absolute;
+        left: -39px;
+        top: 11px;
+        width: 29px;
+        height: 1px;
+        display: block;
+        box-shadow: -1px 3px 5px 0px black;
+    }
+
+.account_type_blocks_header p {
+    font-weight: bold;
+    font-size: 30px;
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 75%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 75%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 28px;
+    font-family: 'WhitneyMedium';
+    text-transform: uppercase;
+}
+
+.accGold {
+    border: 1px solid #99804d;
+    min-width: 370px;
+    margin-left: -5px;
+}
+
+.account_type_blocks_body h5 {
+    color: #d2d1d1;
+    font-size: 18px;
+    font-family: 'WhitneyMedium';
+    text-align: center;
+    line-height: 30px;
+    padding-top: 23px;
+    padding-bottom: 19px;
+}
+
+    .account_type_blocks_body h5 span {
+        color: #d3a851;
+    }
+
+.account_type_blocks_body {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+}
+
+.accGold .account_type_blocks_body {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.account_type_blocks_body li {
+    background-image: url('../images/account_types/account_t_bg.icon.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #d2d1d1;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 40px;
+    margin-bottom: 7px;
+    font-family: 'WhitneyLight';
+}
+
+    .account_type_blocks_body li span {
+        color: #c39b4b;
+        font-family: 'WhitneyMedium';
+        font-weight: bold;
+    }
+
+.account_type_blocks_body .next-page {
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+}
+
+.account_type_blocks_body .lineY {
+    font-size: 16px;
+}
+
+.account_type_blocks_body .mens_block_lineY {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrap_account_type .footer {
+    margin-top: -225px;
+    padding-top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrap_account_type .footer {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+}

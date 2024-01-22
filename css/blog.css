@@ -1,0 +1,158 @@
+.header_blog {
+    background-image: url('../images/marketing/bg_menue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog_block img{
+    width:100%;
+    max-width: 600px;
+}
+.blog_block{
+    background-image: url('../images/blog/bg_blog.png');
+    background-repeat:no-repeat;
+    background-position:bottom right;
+    padding-bottom: 175px;
+}
+.wrap_blog {
+    background-color: #e3e3e3;
+    padding-top: 49px;
+}
+.blog_block_header h2{
+   color:#2b2b2b;
+   font-size:30px;
+   font-family: 'WhitneyBook';
+   line-height:48px;
+   text-align:left;
+   margin-top: -9px;
+}
+.blog_block_header span{
+    color:#111111;
+    font-size:21px;
+    line-height:36px;
+}
+.blog_block .blog_block_header p{
+    color:#2b2b2b;
+    font-size:18px;
+    line-height:30px;
+    font-family: 'OpenSans-LightItalic';
+    margin-top: 9px;
+    margin-bottom:0;
+}
+.blog_block h3{
+    color:#181818;
+    font-size:18px;
+    line-height:26px;
+    font-family: 'WhitneySemiBold';
+}
+.blog_block p{
+    color:#181818;
+    font-size:16px;
+    line-height:26px;
+    font-family: 'WhitneyBook';
+    margin-bottom: 24px;
+}
+.blog_block p span{
+    color:#181818;
+    font-size:18px;
+    line-height:26px;
+    font-family: 'WhitneySemiBold';
+}
+.blog_block_header{
+    padding-left:12px;
+}
+.blog_block > .container > .row:first-child{
+    margin-bottom:34px;
+}
+.wrap_blog hr{
+    border-top: 1px solid #8a8a8a;
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+.blog_links a{
+    color:#a9a9a9;
+    font-size:16px;
+    font-family: 'WhitneyBook';
+    margin-left: 5px;
+    margin-right: 5px;
+    display:inline-block;
+    background-repeat:no-repeat;
+    min-height: 23px;
+    padding-top: 4px;
+    transition:color 0.5s, background-image 1s;
+}
+.previous{
+    float:left;
+    background-image: url('../images/blog/blog_arrow_left.png');
+    padding-left: 32px;
+    background-position:left;
+}
+.next{
+    float:right;
+    background-image: url('../images/blog/blog_arrow_right.png');
+    padding-right: 32px;
+    background-position:right;
+}
+
+.previous:hover,
+.previous.active{
+    background-image: url('../images/blog/blog_arrow_left_active.png');
+    color:#c99735;
+}
+.next:hover,
+.next.active{
+    background-image: url('../images/blog/blog_arrow_right_active.png');
+    color:#c99735;
+}
+.blog_left_menue{
+    position:fixed;
+    top:0;
+    left:-285px;
+    background-color:#131313;
+    max-width:330px;
+    z-index: 1000;
+    height: 100%;
+    padding-top:230px;
+    transition:left 1s;
+}
+.blog_left_menue.active{
+    left:0;
+}
+.blog_left_menue a {
+    color: #505050;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'WhitneyBook';
+    display: block;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.5s;
+}
+.blog_left_menue a:hover,
+.blog_left_menue a.active{
+    color:#d5c17c;
+    background-color:#1a1a1a;
+}
+.blog_left_menue li{
+    border-bottom:1px solid #191919;
+}
+.blog_left_menue li:first-child{
+    border-top:1px solid #191919;
+}
+.blog_left_menue_btn {
+    background-image: url('../images/blog/open_menue.png');
+    width: 49px;
+    height: 49px;
+    float: right;
+    margin-right: -17px;
+    margin-top: -44px;
+    cursor: pointer;
+    transition:background-image 0.5s, margin-right 1s;
+}
+.blog_left_menue.active .blog_left_menue_btn{
+    background-image: url('../images/blog/close_menue.png');
+}
+.blog_block strong{
+    font-weight:bold;
+}

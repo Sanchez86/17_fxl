@@ -1,0 +1,346 @@
+/* marketing_block*/
+.header_marketing {
+    background-image: url('../images/marketing/bg_menue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.marketing_block{
+    padding-top: 78px;
+    padding-bottom: 75px;
+    background-color:#e3e3e3;
+    background-image: url('../images/marketing/bg_marketing.png');
+    background-repeat:no-repeat;
+    background-position-y: -1px;
+}
+.marketing_block_left {
+    width:50%;
+    float:left;
+    padding-top: 35px;
+}
+.marketing_block_left h2{
+    color:#2b2b2b;
+    font-size:30px;
+    font-family: 'WhitneyBook';
+    text-align:left;
+    padding-left: 31%;
+    line-height: 48px;
+    margin-top: 31px;
+}
+.marketing_block_right{
+    width:50%;
+    float:left;
+    padding-left: 16px;
+    padding-right: 15px;
+    color:#181818;
+}
+.marketing_block_left img {
+    max-width:927px;
+    width:100%;
+}
+.marketing_block_right p{
+    font-size:16px;
+    line-height:26px;
+    font-family: 'WhitneyBook';
+    max-width:630px;
+}
+.marketing_block_right h3{
+    font-size:22px;
+    font-family: 'WhitneyMedium';
+    margin-top: 45px;
+    margin-bottom: 33px;
+}
+.marketing_block_right li{
+    font-size:18px;
+    font-family: 'WhitneyLight';
+    line-height:24px;
+}
+.mark_icon{
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 66px;
+}
+.mark_icon1 {
+    background-image: url('../images/marketing/mark_icon1.png');
+}
+.mark_icon2 {
+    background-image: url('../images/marketing/mark_icon2.png');
+}
+.mark_icon3 {
+    background-image: url('../images/marketing/mark_icon3.png');
+}
+.mark_icon4 {
+    background-image: url('../images/marketing/mark_icon4.png');
+}
+.mark_icon5 {
+    background-image: url('../images/marketing/mark_icon5.png');
+}
+/* end marketing_block*/
+/*mens_block*/
+.mens_responsive{
+    display:none;
+}
+.mens_block {
+    background-image: url('../images/marketing/bg_mens.png');
+    background-repeat:no-repeat;
+}
+.mens_block_right{
+    padding-top: 14px;
+    padding-bottom:11px;
+    text-align:right;
+    padding-right:49px;
+    position:relative;
+    overflow:hidden;
+}
+.mark_circle {
+    position: absolute;
+    background-image: url('../images/marketing/mark_circle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:85px;
+    height:85px;
+    right: -68px;
+    top: -42.5px;
+}
+.mark_circle_line {
+    position: absolute;
+    background-image: url('../images/marketing/mark_circle_line.png');
+    width:481px;
+    height:1px;
+    top: 159px;
+    right: 600px;
+}
+.mens_block_left{
+    padding-left: 15%;
+}
+.mens_block_left,
+.mens_block_right{
+    width:50%;
+    float:left;
+}
+.mens_block_left h3{
+    color:#8e8e8e;
+    font-size:40.5px;
+    font-family: 'WhitneyLight';
+    line-height: 53px;
+    max-width:400px;
+    margin-top: 81px;
+    margin-bottom: 18px;
+}
+.mens_block_left h4{
+    color:#8e8e8e;
+    font-size:24px;
+    font-family: 'WhitneyLight';
+    margin-bottom: 5px;
+}
+.mens_block_left p a{
+    color:#ad8c42;
+    font-size:26px;
+    font-family: 'WhitneyLight';
+    line-height:36px;
+}
+.mens_block_left span{
+    color:#8e8e8e;
+    font-size:22px;
+    font-family: 'WhitneyLight';
+    line-height:36px;
+}
+.mens_block_lineY{
+    margin-top:62px;
+}
+/*end mens_block*/
+/*invite_block*/
+.invite_block {
+    background-image: url(../images/marketing/bg_invite_block.png);
+    background-repeat: no-repeat;
+    padding-top: 104px;
+    padding-bottom: 93px;
+
+}
+.invite_block_right{
+    text-align:right;
+}
+.invite_block_right img{
+    width: 100%;
+    max-width: 830px;
+}
+.invite_block_left,
+.invite_block_right{
+    width:50%;
+    float:right;
+}
+.invite_block_left{
+    padding-left: 15%;
+}
+.invite_block_left h3{
+    color:#ad8c42;
+    font-size:18px;
+    font-family: 'WhitneyMedium';
+    text-transform:uppercase;
+    margin-bottom: 11px;
+}
+.invite_block_left h4{
+    color:#bebdbd;
+    font-size:16px;
+    font-family: 'WhitneyLight';
+    padding-bottom: 75px;
+}
+.invite_icon{
+    background-repeat:no-repeat;
+    padding-left: 115px;
+    transition:background-image 0.5s;
+}
+.invite_icon1 {
+    background-image: url('../images/marketing/invite_icon1.png');
+}
+.invite_icon2 {
+    background-image: url('../images/marketing/invite_icon2.png');
+}
+.invite_icon3 {
+    background-image: url('../images/marketing/invite_icon3.png');
+}
+.invite_icon1:hover {
+    background-image: url('../images/marketing/invite_icon1Active.png');
+}
+.invite_icon2:hover {
+    background-image: url('../images/marketing/invite_icon2Active.png');
+}
+.invite_icon3:hover {
+    background-image: url('../images/marketing/invite_icon3Active.png');
+}
+.invite_block ol{
+    list-style-type: decimal;
+}
+.invite_block ol li{
+    color:#bebdbd;
+    font-size:15px;
+    font-family: 'WhitneyLight','Roboto-Light';
+    line-height:25px;
+}
+.invite_block ol li a{
+    color:#ad8c42;
+}
+.invite_block ol li a:hover{
+    text-decoration:underline;
+}
+.invite_block_lineY{
+    margin-top: 15px;
+    margin-bottom: 59px;
+}
+.invite_block_right p{
+    color: #bebdbd;
+    font-size: 30px;
+    font-family: 'WhitneyBook';
+    text-align: center;
+    margin-top: 70px;
+}
+/*end invite_block*/
+/*broker_block*/
+.broker_block{
+    background-color:#f1f4f6;
+    padding-top: 67px;
+    overflow: hidden;
+}
+.broker_block_right{
+    padding-top: 211px;
+    padding-left: 50px;
+}
+.broker_block_left,
+.broker_block_right{
+    width:50%;
+    float:left;
+}
+.broker_block_left img{
+    width:100%;
+    max-width:953px;
+}
+.broker_mac {
+    background-image: url('../images/marketing/broker_mac.png');
+    background-repeat:no-repeat;
+    background-position: left bottom;
+    position:relative;
+}
+.broker_mac p{
+    color: #181818;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+    line-height: 25px;
+    max-width: 575px;
+    float: right;
+    padding-top: 42px;
+    margin-right: 74px;
+    padding-bottom: 311px;
+}
+.flowers {
+    background-image: url('../images/marketing/flowers.png');
+    background-repeat:no-repeat;
+    width:292px;
+    height:226px;
+    position:absolute;
+    right: -83px;
+    bottom: 40px;
+}
+.broker_block_right h2{
+    color:#ae801c;
+    font-size:21px;
+    font-family: 'WhitneyMedium';
+    text-align:left;
+    margin-bottom: 56px;
+}
+.broker_block_right ul{
+    max-width: 580px;
+}
+.broker_block_right li{
+    color:#181818;
+    font-size:18px;
+    font-family: 'WhitneyLight';
+    line-height:22px;
+    padding-bottom: 21px;
+}
+.broker_icon{
+    background-repeat:no-repeat;
+    padding-left: 75px;
+}
+.broker_icon1 {
+    background-image: url('../images/marketing/broker_icon1.png');
+}
+.broker_icon2 {
+    background-image: url('../images/marketing/broker_icon2.png');
+}
+.broker_icon3 {
+    background-image: url('../images/marketing/broker_icon3.png');
+}
+.broker_icon4 {
+    background-image: url('../images/marketing/broker_icon4.png');
+}
+.broker_icon5 {
+    background-image: url('../images/marketing/broker_icon5.png');
+}
+.broker_icon6 {
+    background-image: url('../images/marketing/broker_icon6.png');
+}
+.broker_block_lineY{
+    margin-left:16%;
+    position:relative;
+}
+.broker_block_lineY .next-page {
+    background-image: url('../images/next-page_black.png');
+}
+.broker_block_lineY>div{
+    position:absolute;
+    top:-20px;
+}
+.broker_block_lineY a,
+.broker_block_lineY a:visited{
+    color:#2b2b2b;
+    text-decoration:none;
+}
+.broker_block_lineY a:hover{
+    color:#000;
+}
+.broker_bottom img{
+    width:100%;
+    vertical-align: bottom;
+}
+/*end broker_block*/

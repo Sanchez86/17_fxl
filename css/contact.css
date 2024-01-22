@@ -1,0 +1,123 @@
+.header_contact {
+    background-image: url('../images/contact/bg_contacts.png');
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    padding-top: 125px;
+}
+.contact_block1_left{
+    width:40%;
+    padding-left:15px;
+    padding-right:15px;
+}
+.contact_block1_right{
+    width:60%;
+    padding-right: 357px;
+    padding-left: 70px;
+    padding-top: 95px;
+}
+.contact_block1_left,
+.contact_block1_right{
+    float:left;
+}
+.contact_logo img{
+    width:100%;
+    max-width:867px;
+}
+.contact_block1_left h2{
+    color: #c2c2c2;
+    font-size: 36px;
+    font-family: 'WhitneyLight';
+    line-height: 48px;
+    max-width: 500px;
+    text-align: left;
+    float: right;
+    margin-top: 80px;
+    margin-bottom: 44px;
+}
+.flag{
+    width:50%;
+    float:left;
+    text-align:center;
+}
+.flagLast{
+    width:100%;
+    float:none;
+}
+.flag h3{
+    color:#ad8c42;
+    font-size:21px;
+    line-height:30px;
+    font-family: 'WhitneyMedium';
+    margin-top: 9px;
+}
+.flag h4,
+.flag h5{
+    color:#bbbaba;
+    font-size:18px;
+    line-height:30px;
+    font-family: 'WhitneyBook';
+}
+.flag img{
+    margin-top: 43px;
+}
+
+
+.contact_block2Left,
+.contact_block2Right{
+    width:50%;
+    float:right;
+    padding-left:15px;
+    padding-right:15px;
+}
+.contact_block2Right{
+    padding-right: 357px;
+    padding-left: 0;
+}
+.contact_block2Left{
+    text-align:center;
+    padding-top: 133px;
+    padding-left: 100px;
+}
+.contact_block2Right{
+    padding-top: 85px;
+}
+.contact_block2Left a{
+    background-repeat:no-repeat;
+    background-position:left center;
+    color:#1c1c1c;
+    font-size:18px;
+    font-family: 'WhitneyMedium';
+}
+.support a{
+    background-image: url('../images/contact/contact_icon1.png');
+    padding-left: 54px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.chat a{
+    background-image: url('../images/contact/contact_icon2.png');
+    padding-left: 69px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.support{
+    margin-bottom: 23px;
+}
+.contact_block2Right h2{
+    text-transform:uppercase;
+    color:#1c1c1c;
+    font-size:24px;
+    line-height:30px;
+    font-family: 'WhitneyMedium';
+}
+.contact_block2Right p{
+    color:#1c1c1c;
+    font-size:18px;
+    line-height:30px;
+    font-family: 'WhitneyBook';
+    text-align: center;
+    margin-top: 14px;
+}
+.contact_block2{
+    padding-bottom: 37px;
+}

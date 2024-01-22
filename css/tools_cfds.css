@@ -1,0 +1,386 @@
+.wrap_cfds .container {
+   min-width: 1300px;
+}
+.wrap_cfds p {
+    color: #181818;
+    font-size: 18px;
+    font-family: 'WhitneyLight';
+    line-height:24px;
+}
+.cfds1 {
+    padding-top: 97px;
+    padding-bottom: 85px;
+    background-image: url('../images/tools/cfds/cfds1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.cfds1_left_header img {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+}
+.cfds1_left p {
+    color: #181818;
+    font-size: 30px;
+    font-family: 'WhitneyBook';
+    line-height: 48px;
+    text-align: left;
+    margin-top: 194px;
+}
+.cfds1_right {
+    padding-left: 29px;
+    margin-top: 76px;
+}
+.cfds1_right h3 {
+    color: #ae801c;
+    font-size: 18px;
+    font-family: 'WhitneyMedium';
+    line-height: 36px;
+    margin-bottom: 14px;
+}
+
+.sub_cfds1_header {
+    color: rgb(255, 255, 255);
+    text-shadow: #e0e0e0 1px 0px, #e0e0e0 1px 1px, #e0e0e0 0px 1px, #e0e0e0 -1px 1px, #e0e0e0 -1px 0px, #e0e0e0 -1px -1px, #e0e0e0 0px -1px, #e0e0e0 1px -1px;
+    margin-left: -220px;
+    text-align: left;
+    font-size: 130px;
+    line-height: 130px;
+    background-image: url('../images/tools/cfds/cfds1_line.png');
+    background-position: left bottom;
+    padding-bottom: 22px;
+}
+.cfds1_header {
+    color: #171717;
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 84px;
+    /*margin-top: -80px;*/
+    margin-left: -20px;
+    letter-spacing: 5px;
+}
+.cfds1_left h3 {
+    color: #ae801c;
+    font-size: 18px;
+    font-family: 'WhitneyBook';
+    line-height: 30px;
+    margin-top: 72px;
+    margin-bottom: 29px;
+}
+.cfds1_left li {
+    background-image: url(../images/education/how_to_trade/list_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    color: #181818;
+    font-size: 18px;
+    font-family: 'WhitneyBook';
+    padding-left: 25px;
+    line-height: 30px;
+}
+.cfds1_left ul {
+    margin-bottom: 24px;
+}
+.cfds1_icon {
+    text-align: center;
+    margin-top: 119px;
+}
+
+/*cfds2*/
+.cfds2 {
+    background-color: #131313;
+    padding-top: 72px;
+    padding-bottom: 77px;
+}
+.cfds2_icon {
+    text-align: center;
+    margin-top: 70px;
+}
+.cfds2_right h2 {
+    color: #ad8c42;
+    font-size: 40px;
+    font-family: 'WhitneyLight';
+    line-height: 54px;
+    margin-bottom: 11px;
+    text-align: right;
+}
+.cfds2_right p {
+    color: #8e8e8e;
+    font-size: 24px;
+    font-family: 'WhitneyLight';
+    line-height: 36px;
+    text-align: right;
+    padding-left: 110px;
+}
+.cfds2 .cfds2_block2__p {
+    color: #ad8c42;
+    font-size: 18px;
+    font-family: 'WhitneyMedium';
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 56px;
+    margin-bottom: 68px;
+}
+.cfds2_staps {
+
+}
+.cfds2_stap {
+    text-align: center;
+    width: 20%;
+    float: left;
+    position:relative;
+}
+.cfds2_stap p {
+    color: #bebdbd;
+    font-size: 16px;
+    font-family: 'WhitneyLight';
+    line-height: 26px;
+    margin-top: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cfds2_stap:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -9%;
+    background-image: url('../images/tools/cfds/cfds2_arrow.png');
+    width:47px;
+    height:24px;
+}
+.cfds2_stap:last-child::after{
+    display:none;
+}
+.cfds2 .cfds2_block4__p {
+    color: #8e8e8e;
+    font-size: 40.5px;
+    font-family: 'WhitneyBook';
+    line-height: 54px;
+    margin-top: 79px;
+}
+/*end cfds2*/
+/*cfds3*/
+.cfds3,
+.cfds7 {
+    overflow: hidden;
+}
+.cfds3_right img {
+    position: relative;
+    left: 0;
+    width: 50vw;
+}
+.cfds3_left h2 {
+    color: #bcbcbc;
+    font-size: 18px;
+    font-family: 'WhitneyMedium';
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.cfds3_left li {
+    color: #bcbcbc;
+    font-size: 16px;
+    font-family: 'WhitneyLight';
+    line-height: 46px;
+    letter-spacing: 0.30px;
+    text-align: left;
+    background-image: url(../images/tools/cfds/cfds3_li_icon.png);
+    background-repeat: no-repeat;
+    background-position: top 10px left;
+    padding-left: 37px;
+}
+.cfds3 {
+    background-color: #131313;
+    position: relative;
+    box-shadow: inset 0px 3px 20px 17px rgba(0, 0, 0, 0.3);
+    padding-top: 143px;
+    padding-bottom: 59px;
+}
+.cfds3_right .caption_block {
+    top: 0;
+    right: 0;
+    text-align: right;
+    width:50%;
+}
+.sub_cfds3_header {
+    text-align:right;
+    font-size: 100px;
+    line-height:90px;
+    color: #131313;
+    text-shadow: #212121 1px 0px, #212121 1px 1px, #212121 0px 1px, #212121 -1px 1px, #212121 -1px 0px, #212121 -1px -1px, #212121 0px -1px, #212121 1px -1px;
+}
+.cfds3_header {
+    color: #bebdbd;
+
+}
+.cfds3_icons {
+    float: right;
+    margin-right: -30px;
+    margin-top: 87px;
+}
+    .cfds3_icons img {
+        width: auto !important;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+/*end cfds3*/
+/*cfds4*/
+.cfds4_left,
+.cfds4_right {
+    margin-top: 141px;
+}
+.cfds4_left img {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    padding-right: 20px;
+}
+.cfds4_right p {
+    color: #bebdbd;
+    font-size: 16px;
+    font-family: 'WhitneyLight';
+    line-height: 26px;
+    /* letter-spacing: 0.30px; */
+    margin-bottom: 26px;
+}
+.cfds4_right h3 {
+    color: #ad8c42;
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+    text-transform:uppercase;
+}
+.cfds4_left h3 {
+    color: #bebdbd;
+    font-size: 24px;
+    font-family: 'WhitneyBook';
+    line-height: 36px;
+    padding-top: 408px;
+    padding-right: 80px;
+}
+.cfds4_left h3 span {
+    color: #ad8c42;
+}
+/*end cfds4*/
+/*cfds5*/
+.cfds5_right img {
+    position: relative;
+    left: 0;
+    width: 50vw;
+}
+.cfds5_right {
+    margin-top: 73px;
+}
+.cfds5_left p {
+    color: #bebdbd;
+    font-size: 16px;
+    font-family: 'WhitneyLight';
+    line-height: 26px;
+    /* letter-spacing: 0.30px; */
+    margin-bottom: 26px;
+}
+.cfds5_left {
+    margin-top: 192px;
+}
+.cfds5_icons {
+    float: right;
+    margin-right: -30px;
+    margin-top: 74px;
+}
+.cfds5_icons img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*end cfds5*/
+/*cfds6*/
+.cfds6_left img {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    padding-right: 20px;
+}
+.cfds6 {
+    background-color: #f1f1f1;
+    padding-top: 82px;
+    padding-bottom: 46px;
+}
+.cfds6 .cfds6_right p {
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'WhitneyBook';
+    margin-bottom: 26px;
+}
+
+/*end cfds6*/
+/*cfds7*/
+.cfds7_right img {
+    position: relative;
+    left: 0;
+    width: 50vw;
+}
+.cfds7 {
+    padding-top: 44px;
+    padding-bottom: 84px;
+    background-color: #fbfbfb;
+}
+.cfds7 li {
+    background-image: url(../images/education/how_to_trade/list_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #181818;
+    font-size: 18px;
+    font-family: 'WhitneyBook';
+    padding-left: 25px;
+    line-height: 37px;
+}
+.cfds7 p {
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'WhitneyLight';
+}
+.cfds7 h3 {
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'WhitneyMedium';
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.cfds7 .cfds7_left__p {
+    font-family: 'WhitneyMedium';
+    margin-top: 21px;
+}
+.cfds_book {
+    margin-top: 6px;
+}
+.cfds_book img{
+    width:100%;
+    max-width:685px;
+}
+.cfds7_left2 img {
+    position: absolute;
+    top: -114px;
+    right: 0;
+    width: 50vw;
+    padding-right: 20px;
+}
+.cfds7_left__p2 {
+    margin-top: 118px;
+}
+/*end cfds7*/
+
+/*Economic calendar*/
+.wrap_ec {
+    padding-top:100px;
+}
+.ec_header {
+    margin-bottom: 11px;
+}
+.ec_header img{
+    width:100%;
+    max-width:1249px;
+}
+/*end Economic calendar*/

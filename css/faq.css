@@ -1,0 +1,251 @@
+.wrap_faq{
+    background-color:#131313;
+}
+.header_faq {
+    background-image: url('../images/faq/bg_top.png');
+    background-repeat:no-repeat;
+    padding-top: 72px;
+}
+.header_faq img {
+    width:100%;
+    max-width:864px;
+}
+.wrap_body {
+    background-image: url('../images/faq/bg_bottom.jpg');
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    padding-bottom: 108px;
+}
+.wrap_body ul{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+.faq_my_account div ul li ul{
+    list-style-type:disc;
+    padding-left: 20px;
+}
+#accordion div div {
+    border: 0;
+    background: inherit;
+    color: #bbbaba;
+    font-size:14px;
+    line-height:26px;
+    height: 0;
+    overflow: hidden;
+    transition:height 1s;
+}
+#accordion div div.active{
+    height:auto;
+}
+#accordion{
+    max-width: 570px;
+    margin-top: 24px;
+    position:relative;
+}
+#accordion h3.active {
+    color: #ad8c42;
+    background-image: url('../images/faq/accArrowD.png');
+}
+#accordion h3 {
+    cursor: pointer;
+    color: #707070;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'WhitneyBook';
+    background-image: url('../images/faq/accArrowR.png');
+    background-repeat: no-repeat;
+    background-position: left 16px;
+    padding-left: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition:background 0.2s;
+}
+
+#accordion h3:hover{
+    color: #ad8c42;
+    /*background-image: url('../images/faq/accArrowD.png');*/
+}
+
+#accordion > div > div > p,
+#accordion p{
+    margin-top: 16px;
+    margin-left: 19px;
+    margin-bottom: 9px;
+    font-family: 'WhitneyBook';
+    font-size:14px;
+}
+.img {
+    position: absolute;
+   /* background-image: url('../images/faq/img.png');*/
+    width: 695px;
+    height: 432px;
+    top: -14px;
+    right: -705px;
+    display:none;
+}
+#accordion .img_circle{
+    position:absolute;
+    background-image: url(../images/marketing/mark_circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 65px;
+    height: 85px;
+    left: 340px;
+    top: 196px;
+}
+.img_circle{
+    display:none;
+}
+.faq_my_account{
+    background-color:#fff;
+}
+.sub_logo_bg_bott{
+    text-align:right;
+    padding-top: 73px;
+    padding-bottom: 37px;
+}
+.sub_logo_bg_bott img {
+    width: 100%;
+    max-width:803px;
+}
+.faq_my_account .sub_faq_gold p{
+    color:#1c1c1c;
+    font-size:18px;
+    font-family: 'WhitneyBook';
+    line-height:30px;
+    margin-bottom: 47px;
+    margin-right: 105px;
+}
+.sub_faq_gold{
+    text-align:right;
+}
+
+.faq_my_account h3{
+    color:#2b2b2b;
+    font-size:16px;
+    font-family: 'WhitneyBook';
+    line-height:48px;
+    text-transform:uppercase;
+    background-image: url('../images/faq/accArrowR.png');
+    background-repeat: no-repeat;
+    background-position: left 18px;
+    padding-left: 17px;
+    transition:background-image 0.4s;
+    cursor:pointer;
+}
+.faq_my_account h3.no_active{
+    color:#2b2b2b;
+    font-size:16px;
+    font-family: 'WhitneyBook';
+    line-height:48px;
+    text-transform:uppercase;
+    background-image: url('../images/faq/accArrowR.png');
+    background-repeat: no-repeat;
+    background-position: left 18px;
+    padding-left: 17px;
+    transition:background-image 0.4s;
+    cursor:pointer;
+}
+.faq_my_account h3:hover,
+.faq_my_account h3.active {
+    color: #ad8c42;
+    /*background-image: url('../images/faq/accArrowD.png');*/
+}
+.faq_my_account p{
+    color:#848282;
+    font-size:14px;
+    font-family: 'WhitneyBook';
+    line-height:26px;
+    padding-left: 18px;
+}
+.faq_my_account h3 + div{
+    height:0;
+    overflow: hidden;
+}
+.faq_my_account h3 + div.active{
+    height:auto;
+}
+#faq_my_account .dep,
+#faq_my_account .wiz{
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:inherit;
+    border:0;
+    cursor:pointer;
+    height: 132px;
+    position: relative;
+    min-width: 180px;
+    margin-bottom:45px;
+}
+#faq_my_account .dep {
+    background-image: url('dep.png');
+}
+#faq_my_account .wiz {
+    background-image: url('wiz.png');
+}
+#faq_my_account li:hover .dep,
+#faq_my_account .nav li.active .dep{
+    background-image: url('dep_active.png');
+    background-color:inherit;
+}
+#faq_my_account li:hover .wiz,
+#faq_my_account .nav li.active .wiz{
+    background-image: url('wiz_active.png');
+    background-color:inherit;
+}
+
+#faq_my_account .nav-tabs{
+    border:0;
+}
+.faq_my_account .nav li{
+    width:50%;
+}
+#faq_my_account .nav li span{
+    display:inline;
+    height:auto;
+    width:auto;
+    outline:0;
+    border-radius:0;
+    background:none;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    font-family: 'WhitneySemiBold';
+    font-size:22px;
+    color:#171717;
+}
+#faq_my_account .nav li.active span,
+#faq_my_account .nav li:hover span{
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%);
+    background: linear-gradient(to right, #f1dc8b 10%,#f1dc8b 0%,#a47f41 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faq_my_account li i{
+    margin: 0;
+    width: 0%;
+    height: 5px;
+    right:0;
+    bottom:-14px;
+    background: linear-gradient(to right, #efd983 10%, #a17e3e 100%);
+    border-radius: 20px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.30);
+    transition:width 1s;
+}
+.faq_my_account li.active i{
+   width: 100%;
+   left:0;
+}
+.faq_my_account .tab-content{
+    padding-bottom: 70px;
+}
+.sub_faq_gold img{
+    width:100%;
+    max-width:734px;
+
+}

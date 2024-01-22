@@ -1,0 +1,192 @@
+.footer{
+    background-color: #101010;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.wrap_index .footer{
+    margin-top: -225px;
+    padding-top: 0;
+}
+.footer .container{
+    width: 100%;
+    max-width: 1300px;
+}
+.footerLogo, .footerMenue {
+    float:left;
+}
+.footerLogo {
+    margin-right: 11.3vw;
+}
+.footerMenue li a {
+    color: #bbbaba;
+    font-size: 14px;
+    font-family: 'WhitneyBook';
+    line-height: 21px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.footerMenue li:first-child a {
+    color:#bbbaba;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+.footerGold {
+    float: left;
+    margin-top: 26px;
+}
+.fm_gold > a {
+    color: #dcb050;
+    font-size: 15px;
+    text-transform: none;
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 21px;
+}
+.fm_gold > a:hover {
+    color: #ffdb8c;
+}
+.footerMenue {
+    margin-top: 26px;
+    margin-right: 3.1vw;
+}
+.footerMenue:last-child{
+    margin-right:0;
+}
+.footerMenue li a:hover,
+.footerMenue li a.active {
+    color:#bbbaba;
+}
+.footerMenue li:first-child a:hover,
+.footerMenue li:first-child a.active{
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #e7d489 0%,#e7d489 38%,#92784b 100%);
+    background: linear-gradient(to right, #e7d489 0%,#e7d489 38%,#92784b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.riskWarning{
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.footerLogo img{
+    margin-left:15px;
+}
+.footerLogo p {
+    max-width: 200px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'WhitneyBook';
+    color: #bbbaba;
+    font-size: 14px;
+    line-height: 20px;
+}
+.riskWarning p {
+    font-size: 13px;
+    font-family: 'WhitneyBook';
+    line-height: 24px;
+    color: #bbbaba;
+}
+@media only screen and (max-width: 1350px){
+    .footerLogo{
+        padding-left: 15px;
+    }
+    .footerLogo p {
+        padding-left: 0px;
+    }
+    .footerLogo img {
+        margin-left: 0;
+    }
+    .riskWarning p {
+        font-size: 12px;
+    }
+    .footerLogo p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .footerLogo p {
+        font-size: 12.7px;
+    }
+    .footerMenue li:first-child a{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .footerMenue li a {
+        font-size: 13px;
+    }
+    .footerLogo {
+        margin-right: 5vw;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .wrap_index .footer {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .footer {
+        margin-top: 0;
+        background-color: #101010;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 870px){
+    .footerLogo p {
+       padding-right:0;
+    }
+    .footerLogo{
+        width:100%;
+        float:none;
+    }
+    .footer {
+        background-color: #101010;
+        padding-bottom: 20px;
+    }
+    .footerMenueAbout{
+        margin-left:15px;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .footerLogo p {
+        max-width: 100%;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .footerMenue {
+        margin-top: 26px;
+        margin-left: 0!important;
+        margin-right: 0 !important;
+        width: 50%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .footerGold {
+        width: 50%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media only screen and (max-width: 500px){
+   .footerMenue li:first-child a {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 400px){
+   .footerMenue li:first-child a {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+   .footerMenue li a {
+        font-size: 14px;
+    }
+   .footer{
+       margin-top:0;
+       padding-top:20px;
+   }
+}

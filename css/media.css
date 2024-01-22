@@ -1,0 +1,3355 @@
+@media only screen and (min-width: 1500px){
+    .faq_my_account > .container{
+        width: 1500px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .blog_block > .container{
+        width: 1250px;
+    }
+    .open_account.container{
+        width: 1216px;
+    }
+}
+@media only screen and (max-width: 1900px){
+    /*index*/
+    .vsLogoLeft img,
+    .vsLogoRight img{
+        width:45vw;
+    }
+    .vs_left{
+        width: 460px;
+    }
+    .vs_right {
+        width: 470px;
+    }
+    .bull{
+        margin-left: 233px;
+    }
+    /*end index*/ 
+    /*marketing*/
+    .marketing_block_right{
+        padding-left: 30px;
+    }
+    .sub_invite_block{
+        background-color: rgb(16, 16, 16);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .invite_block{
+        border-radius:70px;
+        background-image:none;
+        background-color:#131313;
+    }
+    /*end marketing*/
+    /*education glossary*/
+    .nav-tabs-glossary{
+        padding-right: 50px;
+    }
+    /*end education glossary*/
+}
+@media only screen and (max-width: 1850px){
+    .cfds1_right {
+        padding-top: 121px;
+    }
+    .wrap_cfds .container,
+    .wrap_strategies .container {
+        min-width: auto;
+    }
+    .cfds7_left2 img {
+        top: 0;
+    }
+}
+@media only screen and (max-width: 1800px){
+    /*index*/
+    .vs_left{
+        width: 430px;
+    }
+    .vs_right {
+        width: 460px;
+    }
+    .vs_center{
+        padding-left: 30px;
+    }
+    .bull{
+        margin-left: 160px;
+    } 
+
+    .blockCenter{
+        padding-top: 200px;
+    }
+    .header_index{
+        height:61vw;
+    }
+    /*end index*/
+    /*contact*/
+    .contact_block1_left, .contact_block1_right{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .contact_block2Right,
+    .contact_block2Left {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .contact_block2Right {
+        width:60%;
+    }
+    .contact_block2Left{
+        width:40%;
+    }
+    /*end contact*/
+    /*about_us*/
+    .fxl_animation_block{
+        left: 12vw;
+    }
+    .fxl_animation_block1{
+        left: 0px;
+    }
+    .fxl_animation_block2{
+        left: 165px;
+    }
+    .fxl_animation_block3{
+        left: 340px;
+    }
+    .aboutUsCircle{
+        display:none;
+    }
+    /*end about_us*/
+    /*legal*/
+    .legal_two_block_left {
+        margin-right:0;
+    }
+    .legal_three_block_left {
+        padding-left: 25px;
+    }
+    /*end legal*/
+}
+@media only screen and (max-width: 1700px){
+    /*index*/
+    .ludi_block {
+        top: 31vw;
+        left: 33.3vw;
+    }
+    .vs_icons{
+        font-size: 15px;
+    }
+    .vs_center{
+        padding-left: 0px;
+        margin-left: -40px;
+    }
+    .vs_left {
+        width: 400px;
+    }
+    .vs_right {
+        width: 420px;
+    }
+    .vs_right .vs_icons {
+        padding-left: 55px;
+    }
+    .bull {
+        margin-left: 60px;
+    }
+    /*end index*/
+    /*marketing*/
+    .marketing_block_left h2{
+        padding-left: 20%;
+    }
+    .mens_block_left {
+        padding-left: 10%;
+    }
+    .invite_block_left {
+        padding-left: 10%;
+    }
+    /*end marketing*/
+    /*education*/
+    .how_to_trade_block2_left{
+        padding-left: 18vw;
+    }
+    /*end education*/
+    /*tools_ai*/
+    .wrap_ai_right p {
+        margin-right: 30%;
+    }
+    /*end tools_ai*/
+}
+@media only screen and (max-width: 1600px){
+    /*index*/
+    .add_block_open_attccount .account_type_blocks_header {
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .blockForm{
+        background-position-x: -170px;
+    }
+    .bull {
+        width: 300px;
+        height: 268px;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .vs_right {
+        margin-top: -20px;
+    }
+    .vs_center{
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .blockCenter {
+        padding-top: 100px;
+    }
+    .fxlTest{
+        width: 80%;
+    }
+    .blockCenter a{
+        padding:0 20px;
+        min-width: 168px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 0;
+    }
+    .btn_open_attccount {
+        margin-right: 40px;
+    }
+    .header_index {
+        height: 62vw;
+    }
+    .oneLeft img{
+        width:90%;
+    }
+    .katerovki{
+        width:70%;
+    }
+    /*end index*/
+      /*marketing*/
+    .mark_circle_line{
+        width: 0;
+        right: 0;
+        left: 221px;
+    }
+    .invite_block_left ol{
+        position:absolute;
+    }
+    .invite_block{
+        padding-top: 84px;
+        padding-bottom: 143px;
+    }
+    /*end marketing*/
+}
+
+@media only screen and (max-width: 1500px) {
+    /*index*/
+    .ludi_block {
+        top: 30vw;
+        left: 39.3vw;
+    }
+    .vs_center {
+        -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+    .bull {
+        width: 260px;
+        height: 238px;
+        margin-left: 190px;
+        margin-top: 10px;
+    }
+    .header_index {
+        height: 63vw;
+    }
+    .forexLargest{
+        font-size: 28px;
+    }
+    .katerovkiLogo {
+       width:80%;
+    }
+    .vs_icons {
+        font-size: 14px;
+    }
+    /*end index*/
+    /*marketing*/
+    .invite_block_left h4{
+        line-height: 22px;
+    }
+    .invite_icon{
+        padding-left: 100px;
+    }
+    .broker_mac p{
+        padding-left:15px;
+    }
+    .broker_block_right{
+        padding-left:15px;
+    }
+    .flowers{
+        right: -30px;
+    }
+    /*end marketing*/
+    /*faq*/
+    .faq_my_account .sub_faq_gold p{
+        margin-right:15px;
+    }
+    /*end faq*/
+}
+@media only screen and (max-width: 1450px){
+    /*index*/
+    .vs_center {
+        margin-left: 0;
+    }
+    .bull {
+        margin-left: 160px;
+    }
+    /*end index*/
+    /*marketing*/
+    .marketing_block_left h2{
+        padding-left: 10%;
+    }
+    /*end marketing*/
+    /*education*/
+    .how_to_trade_block3_left, .how_to_trade_block3_right{
+        transform: scale(0.9);
+    }
+    .how_to_trade_block3_left {
+        padding-right: 207px;
+    }
+    .how_to_trade_block3_right {
+        padding-left: 54px;
+        margin-top: 23px;
+    }
+    .snakeBlock4_right{
+        margin-top: -15px;
+    }
+    /*end education*/
+}
+@media only screen and (max-width: 1400px) {
+    /*index*/
+    .fourRight{
+        padding-left: 40px;
+    }
+    .mobileMob{
+        padding-top: 7%;
+    }
+    .fourLeft h2{
+        font-size: 28px;
+    }
+    .vs_center {
+        margin-left: 70px;
+        -webkit-transform: scale(0.6);
+                transform: scale(0.6);
+        margin-top: 130px;
+    }
+    .vs_right {
+        width: 390px;
+    }
+    .vs_left {
+        width: 360px;
+    }
+    .header_index {
+        height: 64vw;
+    }
+    .forexLargest{
+        font-size: 26px;
+    }
+    .bull {
+        margin-top: 0;
+        margin-left: 200px;
+        width: 230px;
+        height: 208px;
+    }
+    /*end index*/
+    /*education*/
+    .how_to_trade_block2_right{
+        overflow:hidden;
+    }
+    .how_to_trade_block2_right img{
+        width: 130%;
+    }
+    /*end education*/
+    /*about us*/
+    .blog_block_header h2{
+        margin-top: 30px;
+    }
+    .blocks_svg_animation{
+        top: -20px;
+        left: 0;
+    }
+    .about_us_svg_block3 {
+        left: 775px;
+        top: 271px;
+        width: 370px;
+    }
+    .about_us_svg_block2 {
+        left: 397px;
+        top: 134px;
+    }
+    /*end about us*/
+    /*blog*/
+    .blog_block > .container{
+       padding-left:60px;
+    }
+    .blog_block_header h2{
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .blog_block_header span{
+        font-size: 18px;
+    }
+    .blog_block .blog_block_header p{
+        font-size: 16px;
+    }
+    /*end blog*/
+     /*faq*/
+    .img{
+        width: 565px;
+        top: -14px;
+        right: -585px;
+    }
+    #accordion .img_circle{
+        width: 55px;
+        left: 277px;
+        top: 161px;
+        margin: 0;
+    }
+    /*end faq*/
+    /*tools_ai*/
+    .wrap_ai_right p {
+        margin-right: 10%;
+    }
+    /*end tools_ai*/
+}/*end 1400*/
+@media only screen and (max-width: 1350px){
+    /*index*/
+    .oneImage {
+        width: 406px;
+        margin-right: 0;
+    }
+    .ludi_block {
+        top: 29vw;
+        left: 41.3vw;
+    }
+    .vs_left {
+        width: 350px;
+        margin-left: 10px;
+    }
+    .vs_center {
+        margin-left: 10px;
+    }
+    .vs_right {
+        width: 350px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .vs_icons {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+    .vs_right .vs_icons {
+        padding-left: 52px;
+    }
+    .bull {
+        margin-top: 40px;
+        margin-left: 180px;
+        width: 200px;
+        height: 175px;
+    }
+    .fourRight,
+    .fourLeft{
+        width:50%;
+    }
+    /*end index*/
+}
+@media only screen and (max-width: 1300px) {
+    /*index*/
+    .add_block_open_attccount .account_type_blocks_header h3 {
+        font-size: 18px;
+    }
+    .add_block_open_attccount .account_type_blocks_header p {
+        font-size: 20px;
+    }
+    .add_block_open_attccount .account_type_blocks_header h4 {
+        font-size: 12px;
+    }
+    .add_block_open_attccount .account_type_blocks_header {
+        padding-top: 115px;
+        padding-bottom: 10px
+    }
+    .oneImage {
+        display:none;
+    }
+    .header_index {
+        height: 65vw;
+    }
+    .forexLargest{
+        font-size: 24px;
+    }
+    .fourLeft h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .mobileTablet{
+        width: 25vw;
+    }
+    .mobileMob{
+        width: 10vw;
+    }
+    /*end index*/
+    /*marketing*/
+    .marketing_block_left h2{
+        font-size: 26px;
+    }
+    /*end marketing*/
+    /*education glossary*/
+    .table_glossary td {
+        font-size: 19px;
+        line-height: 23px;
+    }
+    /*end education glossary*/
+    /*education video*/
+    #video .container{
+        width:100%;
+    }
+    .video7_left {
+        position: relative;
+        text-align: left;
+    }
+    .video7_left img {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    /*end education video*/
+    /*about us*/
+    .fxl_animation_block {
+        left: 7vw;
+    }
+    .blocks_svg_animation{
+        left: 35px;
+    }
+    .about_us_svg_block2 {
+        left: 367px;
+        top: 148px;
+    }
+    .about_us_svg_block3 {
+        left: 725px;
+        top: 271px;
+        width: 370px;
+    }
+    /*end about us*/
+}/*end 1300*/
+@media only screen and (max-width: 1250px){
+    /*index*/
+    .ludi_block {
+        top: 28vw;
+        left: 43.3vw;
+    }
+    .vs_left,
+    .vs_right{
+        width: 330px;
+    }
+    /*end index*/
+    /*education*/
+    .how_to_trade_block_left, .how_to_trade_block_right{
+        width:100%;
+    }
+    .how_to_trade_block_right p{
+        max-width:100%;
+    }
+    .how_to_trade_block_right{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .how_to_trade_block_left {
+        padding-top: 85px;
+    }
+    .how_to_trade_block2_left {
+        padding-left: 8vw;
+        padding-top: 63px;
+    }
+    .how_to_trade_block2{
+        background-position: -200px 0;
+    }
+    .how_to_trade_block2_right img {
+        width: 140%;
+    }
+    .how_to_trade_block3_left, .how_to_trade_block3_right {
+        transform: scale(0.8);
+    }
+    .how_to_trade_block3_left {
+        padding-right: 147px;
+        margin-top: -100px;
+    }
+    .how_to_trade_block3_right {
+        padding-left: 6px;
+        margin-top: -54px;
+    }
+    .snakeBlockP{
+        font-size:14px;
+    }
+    /*end education*/
+}
+@media only screen and (max-width: 1200px){
+    
+    /*index*/
+    .row_resp {
+        margin:0;
+    }
+    .katerovkiLogo {
+        width: 80% !important;
+    }
+    .add_block_open_attccount {
+        margin: 0 auto;
+        margin-bottom: 80px;
+        padding-top: 30px;
+    }
+    .two{
+        padding-top:0;
+    }
+    .two .left, .two .right {
+        width: 100%;
+    }
+    .two .sub_katerovkiLogo{
+        text-align:right;
+    }
+    .add_block_open_attccount .account_type_blocks_header h3 {
+        font-size: 20.5px;
+    }
+
+    .add_block_open_attccount .account_type_blocks_header p {
+        font-size: 23px;
+    }
+
+    .add_block_open_attccount .account_type_blocks_header h4 {
+        font-size: 13.2px;
+    }
+
+    .add_block_open_attccount .account_type_blocks_header {
+        padding-top: 115px;
+        padding-bottom: 10px
+    }
+    .add_block_open_attccount .account_type_blocks_header {
+        padding-top: 125px;
+        padding-bottom: 40px;
+    }
+    .vs_center{
+        transform: scale(0.5);
+    }
+    .vs_icons {
+        font-size: 12px;
+    }
+    .vs_left,
+    .vs_right{
+        width: 320px;
+    }
+    .waitingFor{
+        margin-left: 111px;
+    }
+    .ludi_block {
+        top: 28vw;
+        left: 38.3vw;
+    }
+    .sub_accounts{
+        margin: 0 auto;
+    }
+    .two .sub_accounts > p{
+        margin-bottom: 36px;
+        text-align: center;
+    }
+    .two{
+        padding-bottom: 70px
+    }
+    .two .left {
+        width: 100%;
+        float:none;
+    }
+    .katerovki{
+        margin:0 auto;
+        float:none;
+        width: 50%;
+    }
+    .katerovki img {
+        width: 100%;
+        max-width:547px;
+    }
+    .blockCenter {
+        padding-top: 40px;
+    }
+    .header_index {
+        height: 66vw;
+    }
+    .forexLargest{
+        font-size: 23px;
+    }
+    .slider{
+        margin-left: 0;
+    }
+     .circle_in_Circle{
+        width: 183px;
+    }
+     .gridRight{
+        margin-left: 0;
+    }
+     .animRight {
+        background-position:0 0;
+    }
+     /*end index*/
+     /*marketing*/
+    .marketing_block{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /*end marketing*/
+    /*contact*/
+    .contact_block1_right{
+        padding-top: 22px;
+    }
+    .contact_block2Right {
+        padding-top: 155px;
+    }
+    .contact_block2Left{
+        padding-top: 173px;
+    }
+    
+    /*end contact*/
+    /*about us*/
+    .fxl_animation_block {
+        left: 2vw;
+    }
+    .blocks_svg_animation {
+        left: 30px;
+        top: 30px;
+        transform: scale(0.9);
+    }
+    .about_us_svg_block2 {
+        left: 347px;
+    }
+    .about_us_svg_block3{
+        left: 675px;
+    }
+    .about_us_svg_blocks{
+        background-position: 0px;
+        padding-bottom: 653px;
+    }
+    /*end about us*/
+    /*open account*/
+    .sub_form > .container .form-wrap {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .personal_information,
+    .account_information{
+        margin: 0 auto;
+        margin-top: 30px;
+        width:578px;
+        max-width:100%;
+    }
+    /*end open account*/
+     /*faq*/
+    .img{
+        width: 415px;
+        top: -14px;
+        right: -385px;
+    }
+    #accordion .img_circle{
+        width: 40px;
+        left: 205px;
+        top: 119px;
+    }
+    .faq_my_account h3{
+        font-size: 14px;
+    }
+    .faq_my_account p{
+        font-size: 13px;
+    }
+    #faq_my_account .nav li span{
+        font-size: 19px;
+    }
+    #faq_my_account .dep, #faq_my_account .wiz{
+        min-width: 150px;
+    }
+    .faq_my_account li i{
+        height: 4px;
+    }
+    .faq_my_account .sub_faq_gold p{
+        font-size: 19px;
+        line-height: 29px;
+        margin-bottom: 11px;
+    }
+    #faq_my_account .nav-tabs li i {
+        display: block;
+        margin: 0;
+    }
+    /*end faq*/
+    /*account types*/
+    .accGold {
+        min-width: initial;
+        margin-left: 0;
+    }
+    .account_type_blocks_body h5 {
+        font-size: 14px;
+    }
+    .accGold .account_type_blocks_body {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /*end account types*/
+    /*tools_cfds*/
+    .cfds7_left2 img {
+        top: 50px;
+    }
+    /*end tools_cfds*/
+    /*tools_strategies*/
+    .strategies_1_right {
+        padding-right: 10vw;
+    }
+    .strategies_2 h3 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .strategies_2 p {
+        font-size: 18px;
+    }
+    /*end tools_strategies*/
+}/*end 1200*/
+@media only screen and (max-width: 1150px) {
+    /*index*/
+    .vs_center{
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    }
+    .vs_left{
+        width: 290px;
+    }
+    .vs_right {
+        width: 300px;
+    }
+    .bull {
+        margin-top: 30px;
+        margin-left: 140px;
+    }
+    .vs_icons{
+        line-height: 18px;
+    }
+    .vs_icon3{
+        padding-bottom: 18px;
+        padding-top: 11px;
+    }
+    /*end index*/
+    /*marketing*/
+    .marketing_block_left h2{
+        font-size: 23px;
+        line-height: 38px;
+    }
+    .mens_block_left h3{
+        font-size: 36px;
+        line-height: 47px;
+    }
+    /*end marketing*/
+    /*education video*/
+    .video6_block_left {
+        padding-left: 1vw;
+    }
+    /*end education video*/
+}
+@media only screen and (max-width: 1100px){
+    /*index*/
+    .ludi_block {
+        top: 27vw;
+        left: 40.3vw;
+    }
+    .fxlTest {
+        width: 75%;
+    }
+    .header_index {
+        height: 68.2vw;
+    }
+    .forexLargest{
+        font-size: 22px;
+    }
+    .animationBlockContent p{
+        font-size: 16px;
+    }
+    .animationBlockContent span{
+        font-size: 26px;
+    }
+    .oneAnimationBlockFirst,
+    .oneAnimationBlockSecond,
+    .oneAnimationBlockThird{
+        width:180px;
+    }
+    .oneRight h5{
+        font-size: 15px;
+    }
+    .fourLeft h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    /*end index*/
+    /*education*/
+    .how_to_trade_block3_left, .how_to_trade_block3_right {
+        transform: scale(0.8);
+    }
+    .snakeBlockP {
+        font-size: 15px;
+    }
+    .how_to_trade_block3_left{
+        padding-right: 127px;
+        margin-top: -99px;
+    }
+    .how_to_trade_block3_right {
+        padding-left: 0;
+    }
+    /*end education*/
+}
+@media only screen and (max-width: 1024px){
+    /*index*/
+    .monye{
+        width: 113px;
+        height: 147px;
+        margin-left: 52px;
+        margin-top: 2px;
+    }
+    .blockForm{
+        padding-bottom: 56px;
+        background-position-x: -220px;
+    }
+    #wrapper{
+        display:none;
+    }
+    .blockCenter a,
+    .lineY{
+        font-family: 'WhitneyBook'!important;
+    }
+    .mobileMob,
+    .mobileTablet{
+        z-index:0;
+    }
+    .mobileBtn{
+        margin-top: 70px;
+    }
+    .sub_submit .lineY{
+        background-position: 20px center;
+    }
+    /*end index*/
+     /*marketing*/
+    .marketing_block_right h3 {
+        margin-bottom: 23px;
+        line-height: 26px;
+    }
+    .snakeBlock4_right {
+        margin-top: -22px;
+    }
+    
+     /*end marketing*/
+     /*education*/
+     .nav-tabs li i{
+        margin-left: -40px;
+    }
+     .sub-nav-tabs .nav-tabs li a{
+         font-size: 15px;
+     }
+    .table_glossary td {
+        font-size: 17px;
+    }
+    .how_to_trade_block_right {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .snakesTwoBlock4{
+        width: 390px;
+    }
+    #border {
+        display:none;
+    }
+     /*end education*/
+      /*blog*/
+    .blog_block_header h2 {
+    font-size: 24px;
+    line-height: 35px;
+}
+    .blog_left_menue{
+        max-width: 280px;
+    }
+    .blog_left_menue_btn{
+        margin-right: -57px;
+    }
+    .blog_left_menue.active .blog_left_menue_btn{
+        margin-right: -1px;
+    }
+    .blog_left_menue a{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .blog_block > .container {
+        padding-left: 15px;
+    }
+    /*end blog*/
+    /*legal*/
+    .legal_one_block_left,
+    .legal_one_block_right,
+    .legal_two_block_right,
+    .legal_two_block_left,
+    .legal_three_block_right,
+    .legal_three_block_left,
+    .legal_four_block_left,
+    .legal_four_block_right {
+        float: none;
+        width: 100%;
+    }
+    .wrap_legal .legal_one_block_right p {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .legal_two_block_left {
+        margin-top: 50px;
+        text-align:center;
+    }
+    .legal_three_block_left {
+        max-width: 100%;
+        text-align: center;
+    }
+    .legal_three_block_left h3,
+    .wrap_legal .legal_three_block_left p {
+        text-align: left;
+    }
+    .legal_four_block_right {
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        max-width:100%;
+    }
+    .legal_one_block_left img,
+    .legal_two_block_right img,
+    .legal_three_block_right img,
+    .legal_four_block_left img {
+        width: 90%;
+    }
+    .legal_two_block_right {
+        text-align: right;
+    }
+    /*emd legal*/
+    /*tools_cfds*/
+    .cfds3_left li {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    /*end tools_cfds*/
+    /*tools_strategies*/
+    .strategies_1_left,
+    .strategies_1_right {
+        width: 100%;
+        float: none;
+        margin-bottom: 40px;
+    }
+    .strategies_3 .strategies_3__p {
+        margin-top: 40px;
+    }
+    .strategies_1 h3 {
+        margin-top: 37px;
+    }
+    
+    .strategies_1,
+    .strategies_2,
+    .strategies_3 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .strategies_3 .strategies_3__footer {
+        margin-bottom: 65px;
+        margin-top: 65px;
+    }
+
+    .strategies_3 .strategies_3__p {
+        margin-bottom: 0px;
+    }
+
+    .strategies_2 p {
+        margin-bottom: 0;
+    }
+    /*end tools_strategies*/
+}
+@media only screen and (max-width: 1023px){
+    /*index*/
+    #wrapper,
+    .block_bull_and_monye,
+    .vs_center    {
+        display:none;
+    }
+    .vs_left,
+    .vs_right{
+        width: 430px;
+    }
+    .vs_icons {
+        font-size: 14px;
+        padding-bottom: 27px;
+    }
+    /*end index*/
+    /*marketing*/
+    .marketing_block_left,
+    .marketing_block_right{
+        width:100%;
+        float:none;
+    }
+    .marketing_block{
+        background-size:cover;
+    }
+    .marketing_block_left img{
+        width: 70%;
+    }
+    .marketing_block_right p{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .marketing_block_right{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .marketing_block_responsive{
+        width: 450px;
+        margin: 0 auto;
+    }
+    .marketing_block_left{
+        padding-top: 0;
+    }
+    .invite_block_left ol{
+        position:relative;
+    }
+    .invite_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .invite_block_left, .invite_block_right {
+        width: 100%;
+        float: left;
+    }
+    .invite_block_right p{
+        margin-bottom:50px;
+        margin-top: 50px;
+    }
+    .invite_block_right img {
+        width: 70%;
+    }
+    .invite_block_left h4{
+        padding-bottom: 55px;
+    }
+    .broker_block_left img {
+        width: 70%;
+    }
+    .broker_block_left, .broker_block_right {
+        width: 100%;
+        float: none;
+    }
+    .broker_mac p{
+        padding-bottom: 241px;
+    }
+    .broker_block_right {
+        padding-top: 30px;
+        padding-left: 5%;
+    }
+    .broker_block_lineY>div {
+        top: 0;
+    }
+    .broker_block_lineY {
+        margin-left: 5%;
+        position: relative;
+        margin-top: 35px;
+    }
+    /*end marketing*/
+    /*contact*/
+    .contact_block1_left, .contact_block1_right {
+        float: none;
+        width: 100%;
+    }
+    .header_contact{
+        background-color: #121212;
+    }
+    .contact_block2{
+        background-color:#fff;
+    }
+    .contact_block1_right{
+        padding-bottom: 60px;
+    }
+    .contact_block2Left {
+        padding-top: 73px;
+    }
+    .contact_block2Right {
+        padding-top: 55px;
+    }
+    /*end contact*/
+    /*education*/
+    .how_to_trade_block2_left li{
+        font-size: 16px;
+        line-height: 41px;
+    }
+    .how_to_trade_block2_left {
+        padding-left: 6vw;
+        padding-top: 62px;
+    }
+    .nav-tabs li i{
+        display:none;
+    }
+    .sub-nav-tabs .nav-tabs li a{
+        padding-left:15px;
+    }
+    .snakeBlock1_right,
+    .snakeBlock2_left,
+    .snakeBlock3_right,
+    .snakeBlock4_left,
+    .snakeBlock5_right,
+    .snakesTwoBlock1_left,
+    .snakesTwoBlock2_right,
+    .snakesTwoBlock3_left,
+    .snakesTwoBlock4_right {
+        display:none;
+    }
+    .snakeBlock2{
+        left: 74px;
+    }
+    .snakeBlock4{
+        left: -12px;
+        top: 639px;
+    }
+    .snakesTwoBlock1{
+        left: 86px;
+        width: 300px;
+    }
+    .snakesTwoBlock2{
+        width: 355px;
+    }
+    .snakesTwoBlock3{
+        left: 66px;
+    }
+    .snakesTwoBlock4{
+        width: 330px;
+    }
+
+    .how_to_trade_block3_left{
+        padding-right: 34px;
+    }
+    #snakesTwo{
+        margin-left: -90px;
+    }
+    .how_to_trade_block_right {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .how_to_trade_block3_left, .how_to_trade_block3_right {
+        transform: scale(0.8);
+    }
+    .how_to_trade_block3_left{
+        margin-top: -99px;
+    }
+   
+    /*end education*/
+     /*about us*/
+    .header_about_us_left {
+        width: 65%;
+        float: none;
+    }
+    .header_about_us_right{
+        width: 100%;
+        float: none;
+        padding-top: 23px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .header_about_us_right p{
+        max-width: 100%;
+        margin-left:0;
+        margin-bottom: 20px;
+    }
+    .header_about_us_left img{
+        margin-top: 40px;
+    }
+    .fxl_animation_block1,
+    .fxl_animation_block2,
+    .fxl_animation_block3{
+        top:30px;
+    }
+    .fxl_animation_block {
+        left: 4vw;
+    }
+    .about_us_svg_blocks{
+        background-size:cover;
+        padding-bottom: 440px;
+    }
+    .about_us_svg_block,
+    .blocks_svg_animation{
+        position:relative;
+    }
+    .about_us_svg_block{
+        min-height: 192px;
+        width:100%!important;
+    }
+    .blocks_svg_animation{
+        transform:none;
+        top: 50px;
+    }
+    .about_us_svg_block2 {
+        left: 0;
+    }
+    .about_us_svg_block3 {
+        left: 0;
+    }
+    .sub_about_us_animation_block1{
+        top: 146px;
+        left: 197px;
+    }
+    .sub_about_us_animation_block2{
+        top: 138px;
+        left: 175px;
+    }
+    .sub_about_us_animation_block3 {
+        position: absolute;
+        left: 167px;
+        top: 203px;
+    }
+    .sub_logoAboutUs2 img{
+        margin-top: 0;
+    }
+    .header_about_us{
+        background-color: #131313;
+        background-image:none;
+    }
+    /*end about us*/
+}/*end 1023*/
+@media only screen and (max-width: 1000px){
+    /*index*/
+    .waitingFor {
+        margin-left: 65px;
+    }
+    .vs_left, .vs_right {
+        width: 410px;
+    }
+    .circle_in_Circle {
+        width: 150px;
+    }
+    .oneAnimationBlockFirst, .oneAnimationBlockSecond, .oneAnimationBlockThird {
+        width: 160px;
+    }
+    .one .slider{
+        margin-left: 30px;
+        margin-top: 320px;
+        width: 190px;
+        padding-top: 56px;
+    }
+    /*end index*/
+}
+@media only screen and (max-width: 992px){
+    /*index*/
+    .acc_icons {
+        margin-top: 60px;
+    }
+    .ludi_block {
+        top: 28vw;
+        left: 36.3vw;
+    }
+    .vs_left, .vs_right {
+        width: 390px;
+    }
+    .vs_icons {
+        font-size: 13px;
+    }
+    .katerovkiLogo {
+        width: 70%;
+    }
+    .katerovki{
+        height: 410px;
+    }
+    .fourRight, .fourLeft {
+        width: 100%;
+    }
+    .fourRight {
+        padding-left: 19vw;
+    }
+    .mobileMob {
+        width: 15vw;
+    }
+    .mobileTablet {
+        width: 40vw;
+    }
+   .waitingFor p{
+        font-size: 22px;
+        line-height: 27px;
+   }
+    .oneRight{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .oneLeft{
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+    .oneLeft, .oneRight {
+        width: 100%;
+    }
+    .oneLeft img {
+        width: 50%;
+    }
+     .fxlTest {
+        width: 70%;
+    }
+     .header_index {
+        height: 69vw;
+    }
+    .forexLargest{
+        font-size: 20px;
+    }
+    /*end index*/
+    /*education glossary*/
+    .table_glossary td {
+        font-size: 17px;
+        padding-bottom: 22px;
+    }
+    .nav-tabs-glossary li a{
+        min-width: 35px;
+        max-width: 35px;
+        font-size: 20px;
+    }
+    /*end education glossary*/
+    /*faq*/
+    .img{
+        display:none!important;
+    }
+    .sub_faq_gold img{
+        display:none;
+    }
+    .sub_faq_gold{
+        text-align:center;
+    }
+    .sub_faq_gold p{
+        font-size: 18px;
+    }
+    .faq_my_account h3 {
+        font-size: 15px;
+    }
+    .faq_my_account p {
+        font-size: 14px;
+    }
+    /*end faq*/
+    /*legal*/
+    .legal_icons4 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    /*end legal*/
+    h2.legal_question {
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+    .legal_bottom {
+        margin-top: 40px;
+    }
+    /*account types*/
+    .accMini, .accGold, .accSilver {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .account_type_blocks {
+        padding-bottom: 43px;
+    }
+    .account_type_header_left,
+    .account_type_header_right {
+        width: 100%;
+        float: none;
+    }
+    /*end account types*/
+    /*open account*/
+    .form-blocks {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+    }
+    .form-blocks:first-of-type {
+        float: none;
+    }
+    /*end open account*/
+    /*tools_cfds*/
+    .cfds1_left_header {
+        height: 1px;
+    }
+    .cfds1_left_header img {
+        right: 25vw;
+        position: absolute;
+        width: 75vw;
+    }
+    .cfds1_left p {
+        margin-top: 140px;
+    }
+    .cfds1_left h3 {
+        margin-top: 42px;
+    }
+    .cfds1_right {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .cfds1_icon img {
+        width:100%;
+        max-width:130px;
+    }
+    .cfds1_icon {
+        margin-top: 80px;
+    }
+    .cfds2_stap{
+        width:100%;
+    }
+    .cfds2_stap p {
+        padding:0;
+        padding-bottom: 40px;
+    }
+    .cfds2_stap:after{
+        display:none;
+    }
+    .cfds2_right h2 {
+        font-size: 28px;
+    }
+    .cfds2_right p {
+        line-height: 30px;
+    }
+    .cfds2 .cfds2_block2__p {
+        font-size: 16px;
+    }
+    .cfds2 .cfds2_block4__p {
+        font-size: 28px;
+        line-height: 44px;
+        margin-top: 50px;
+    }
+    .cfds3 {
+        padding-top: 80px;
+    }
+    .cfds3_right img {
+        left: 5vw;
+        width: 95vw;
+    }
+    .cfds3_icons {
+        float: none;
+        max-width: 295px;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .cfds3_icons img {
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 0;
+        right: 0;
+    }
+    .cfds4_left img {
+        right: 5vw;
+        width: 95vw;
+        padding-right: 0;
+    }
+    .cfds4_left h3 {
+        font-size: 18px;
+        line-height: 31px;
+        padding-top: 208px;
+    }
+    .cfds4_left, .cfds4_right {
+        margin-top: 70px;
+    }
+    .cfds5_right img {
+        left: 0;
+        width: 100vw;
+    }
+    .cfds5_icons img {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cfds5_icons {
+        float: none;
+        margin: 0 auto;
+        margin-top: 74px;
+        max-width: 260px;
+    }
+    .cfds5_left {
+        margin-top: 50px;
+    }
+    .cfds6_left img {
+        right: 5vw;
+        width: 95vw;
+        padding-right: 0;
+    }
+    .cfds6_right {
+        margin-top: 250px;
+    }
+    .cfds7_right img {
+        position: relative;
+        left: 5vw;
+        width: 95vw;
+    }
+    .cfds7_left2 img {
+        top: 20px;
+        right: 5vw;
+        width: 95vw;
+        padding-right: 0;
+    }
+    .cfds7_left__p2 {
+        margin-top: 370px;
+    }
+    /*end tools_cfds*/
+    /*tools_strategies*/
+    .strategies_1_right {
+        padding-top: 0;
+    }
+    .strategies_3 {
+        padding-bottom: 0;
+    }
+    /*end tools_strategies*/
+    /*tools_ai*/
+    .wrap_ai_right p {
+        margin-right: 0;
+    }
+    .wrap_ai_left,
+    .wrap_ai_right {
+        width: 100%;
+        float: none;
+    }
+    .wrap_ai_right {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    /*end tools_ai*/
+}/*end 992*/
+ @media only screen and (max-width: 991px){
+    /*account types*/
+    .row-flex {
+        display: inherit !important;
+    }
+    /*end account types*/
+ }
+@media only screen and (max-width: 935px){
+    /*index*/
+     .header_index {
+        height: 70vw;
+    }
+    .forexLargest{
+        font-size: 18px;
+    }
+    /*end index*/
+}
+@media only screen and (max-width: 900px) {
+    /*index*/
+    .ludi_blockc, .ludi{
+        display:none;
+    }
+    .h2_reponsive_desc{
+        display:none!important;
+    }
+    .h2_reponsive_mobile{
+        display:block!important;
+    }
+    .vs_left, .vs_right {
+        width: 360px;
+    }
+    .bg_mobile{
+        margin-top: 24px;
+    }
+    .oneAnimationBlockFirst{
+        height: 139px;
+    }
+    .oneAnimationBlockSecond{
+        height: 131px;
+    }
+    .oneAnimationBlockThird{
+        height: 110px;
+    }
+    .circle_in_Circle {
+        width: 145px;
+    }
+    .one .slider {
+        width: 160px;
+        padding-top: 50px;
+    }
+    .animationBlockContent span {
+        font-size: 25px;
+    }
+    .oneAnimationBlockFirst, .oneAnimationBlockSecond, .oneAnimationBlockThird {
+        width: 150px;
+    }
+    .sub_one {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+    .scrollBlock,
+    .fxlTest,
+    .sub_bullHeader,
+    .animLeft, .animRight{
+        display:none;
+    }
+    .blockCenter{
+        width:100%;
+        background-image:none;
+    }
+    .testBlock,
+    .blockPlay{
+        position: relative !important;
+    }
+    .sub_scrollBlock .testBlock{
+        top: 90px!important;
+    }
+    .blockPlay{
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+    .navbar-brand > img {
+        width: 95%;
+    }
+    .navbar-brand {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    .blockCenter h2{
+        display:block;
+    }
+    .blockCenter a{
+        display: block;
+        max-width: 184px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .header_index {
+        background-image: url('../images/_bg900.jpg')!important;
+        height: auto;
+        background-size: 100% 100%;
+    }
+    .one{
+        margin-top:0;
+        background-image:none;
+        padding-top: 35px;
+    }
+    .oneLeft {
+        margin-top: 0;
+    }
+    .forexLargest {
+        position: relative;
+        bottom: 0;
+        display: block;
+        background-color: #fff;
+        min-height: 60px;
+        height: auto;
+        line-height: 28px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+20,c4c4c4+52,ffffff+80,ffffff+100 */
+        background: #ffffff; /* Old browsers */ /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 20%,#c4c4c4 52%,#ffffff 80%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #ffffff 0%,#ffffff 20%,#c4c4c4 52%,#ffffff 80%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+    }
+   /*end index*/
+   /*education glossary*/
+    .sub_glLogo, .nav-tabs-glossary {
+        width: 100%;
+        float: none;
+    }
+    #glossary {
+        padding-top: 62px;
+    }
+    .nav-tabs-glossary {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .sub_glLogo{
+        margin-bottom: 40px;
+    }
+    .tab-content-glossary {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    /*end education glossary*/
+}/*end 900*/
+@media only screen and (max-width: 899px){
+    header{
+    margin-top: 0;
+    padding-top: 0;
+}
+    /*marketing*/
+   .breadcrumbs {
+        padding-top: 93px;
+    }
+   .mens_block_left {
+        padding-left: 15px;
+        padding-right:15px;
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+   .mens_block_left h3 {
+        font-size: 34px;
+        line-height: 42px;
+        margin-top: 0;
+        padding-top: 40px;
+        max-width:100%;
+    }
+   .mens_block_left span{
+       font-size: 21px;
+   }
+   .mens_responsive{
+        display:block;
+        position: relative;
+        margin-top: 40px;
+    }
+   .mens_block_right{
+       display:none;
+   }
+   .mens_block{
+       background-size:cover;
+       padding-bottom: 62px;
+   }
+   .mark_circle{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 110px;
+   }
+   .broker_mac p {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+        float: none;
+        text-align: center;
+        max-width: 100%;
+    }
+   .flowers{
+        bottom: 0px;
+        width: 30vw;
+        height: 30vw;
+        background-size: contain;
+   }
+   .broker_mac{
+        background-size: 40%;
+   }
+    /*end marketing*/
+    /*contact*/
+    .contact_block2Right, .contact_block2Left{
+        width:100%;
+        float:none;
+    }
+    .contact_block2 {
+        padding-bottom: 57px;
+    }
+    .contact_block2Left {
+        padding-top: 43px;
+    }
+    /*end contact*/
+    /*education*/
+    .how_to_trade_block2_right img {
+        width: 160%;
+    }
+    .how_to_trade_block2_left {
+        padding-left: 15px;
+        padding-top: 0;
+    }
+    /*end education*/
+}/*end 899*/
+@media only screen and (max-width: 850px){
+    /*index*/
+    .vs_left, .vs_right {
+        width: 350px;
+    }
+    .katerovki{
+        height: 380px;
+    }
+    .blockForm{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form{
+        width: 100%;
+    }
+    /*end index*/
+}
+@media only screen and (max-width: 800px){
+    /*index*/
+    .vs_left, .vs_right {
+        width: 347px;
+    }
+    .vs_right .vs_icons {
+        padding-left: 49px;
+        font-size: 13px;
+    }
+    .one .slider {
+        margin-left: 20px;
+        margin-top: 331px;
+        padding-top: 47px;
+        width: 140px;
+        height: 390px;
+    }
+    .circle_in_Circle {
+        width: 135px;
+    }
+    .waitingFor {
+        margin-left: 60px;
+    }
+    .waitingFor p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .oneAnimationBlockFirst{
+        height: 129px;
+    }
+    .oneAnimationBlockSecond{
+        height: 121px;
+    }
+    .oneAnimationBlockThird{
+        height: 100px;
+    }
+    .sub_one {
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+    }
+    .oneAnimationBlockFirst,
+     .oneAnimationBlockSecond,
+     .oneAnimationBlockThird {
+        width: 145px;
+    }
+    .animationBlockContent span {
+        font-size: 24px;
+    }
+    /*end index*/
+}
+@media only screen and (max-width: 768px){
+   /*index*/
+    .myModalReg .modal-body {
+        padding: 15px 30px;
+    }
+    .three{
+        background-size: cover;
+        background-position: inherit;
+    }
+    .blockForm {
+        background-position-x: -970px;
+    }
+    .bg_mobile {
+        margin-top: 0;
+        height: 266px;
+    }
+    .katerovki {
+        height: 360px;
+    }
+    .sub_one {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+    .circle_in_Circle{
+        display:none;
+    }
+    .sub_one_otr{
+        margin-left:0;
+    }
+    .oneAnimationBlockFirst, .oneAnimationBlockSecond, .oneAnimationBlockThird {
+        width: 165px;
+        margin-left: 10px;
+    }
+    .form h2{
+        font-size: 30px;
+    }
+    .sub_submit i{
+        font-size:14px;
+    }
+    /*end index*/
+    /*education glossary*/
+     .table_glossary td {
+        font-size: 13px;
+        padding-bottom: 17px;
+        line-height: 20px;
+    }
+     .tab-content-glossary {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+     .table_glossary tr td:first-child{
+        width: 30%;
+    }
+    /*end education glossary*/
+    /*about*/
+    .blocks_svg_animation{
+        left: 20px;
+    }
+    /*end about*/
+    /*blog*/
+    .blog_block{
+        padding-bottom: 75px;
+    }
+    /*end blog*/
+    /*open_account*/
+    .navBarRight_for_open_account a.active{
+        margin-left:10px;
+    }
+    /*end open_account*/
+    /*education*/
+    .wrap_contact .tab-content .tab-pane{
+        overflow: hidden;
+    }
+    .how_to_trade_block3 {
+        background-image: url('../images/education/how_to_trade/bg_768_ed.png');
+    }
+    /*end education*/
+    /* education video*/
+    .video2 {
+        background-size: contain, cover;
+    }
+    .video4 {
+        background-size:cover;
+    }
+    .video6_block_left,
+    .video6_block_right,
+    .video1_left,
+    .video1_right {
+        width: 100%;
+    }
+    .video6 iframe {
+        height: 500px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .video6_block_left{
+        text-align:center;
+    }
+    /*end education video*/
+
+    /*education ebooks*/
+    .book1_left,
+    .book1_right,
+    .book2_left,
+    .book2_right,
+    .book3_left,
+    .book3_right,
+    .book4_left,
+    .book4_right{
+        width:100%;
+        float:none;
+        margin:0;
+        padding:0;
+    }
+    .book1_right p,
+    .book2_left p,
+    .book3_right,
+    .book4_right p{
+        margin:20px;
+    }
+    .book1_right ul {
+        margin-bottom: 20px;
+    }
+    /*end education ebooks*/
+    /*legal*/
+    .wrap_legal .legal_one_block_right p {
+        font-size: 12px;
+    }
+    .legal_list ol li,
+    .wrap_legal p {
+        font-size: 14px;
+    }
+    .legal_list ol li:before {
+        font-size: 14px;
+    }
+    .wrap_legal h3 {
+        font-size: 16px;
+    }
+    .wrap_legal .legal_two_block_right p{
+        padding-right:15px;
+    }
+    /*end legal*/
+    /*tools_cfds*/
+    .cfds1_left p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 90px;
+    }
+    .cfds1_left h3,
+    .cfds1_left li,
+    .cfds1_right h3,
+    .wrap_cfds p {
+        font-size: 16px;
+    }
+    .cfds1_right {
+        margin-top: 40px;
+    }
+    .cfds2_right p {
+        text-align: left;
+        padding-left: 0;
+    }
+    .cfds6_right {
+        margin-top: 25vw;
+    }
+    .cfds7_left__p2 {
+        margin-top: 40vw;
+    }
+    /* end tools_cfds*/
+   
+}/*end 768*/
+@media only screen and (max-width: 767px){
+    /*modal1*/
+    #myModal1 .modal-dialog {
+        max-width: 517px;
+        margin: 0 auto;
+    }
+    #myModal1.modal{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .modal-body{
+        padding: 15px 20px;
+    }
+    /*end modal1*/
+    /*index*/
+    .vs_right .vs_icons{
+        left:0;
+    }
+    .vs_left .vs_icons{
+        padding-top: 50px;
+        left:0;
+    }
+    .vsLogoLeft img{
+        margin-left:-15px;
+    }
+    .vsLogoRight{
+        margin-right:-15px;
+    }
+    .waitingFor {
+        margin: 0 auto;
+        width: 320px;
+        margin-top: 50px;
+    }
+    .waitingFor p{
+        margin-left:0;
+        text-align: center;
+    }
+    .four{
+        padding-top: 40px;
+    }
+    .resp_vsLogoRight_mob{
+        display:block;
+    }
+    .resp_vsLogoRight_desc{
+        display:none;
+    }
+    .three{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .iconAnimation {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .vsLogoLeft img, .vsLogoRight img {
+        width: 85vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .vs{
+        display:none;
+    }
+    .vs_left, .vs_right{
+        float:none!important;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .vs_icons{
+        float:none!important;
+        position:initial;
+        text-align:center;
+        padding-left:0!important;
+        padding-right:0!important;
+        width: 100%;
+        max-width: 100%;
+        background-position: top center !important;
+        padding-top: 50px;
+    }
+    .vsBlocks .advantages{
+        padding:0;
+        margin: 30px auto;
+        text-align:center;
+    }
+    .katerovki {
+        height: 410px;
+        width: 70%;
+    }
+    .katerovki img {
+        width: 100%;
+    }
+    .two .blockAccaunts .left{
+        margin-right: 40px;
+    }
+    .blockAccaunts .left:last-child {
+        margin-right: 0;
+    }
+    .sub_accounts {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .one{
+        background-image:none;
+        padding-bottom: 0;
+    }
+    .sub_oneAnimationBlock {
+        background-image: url('../images/bg320.png');
+        padding-bottom: 53px;
+    }
+    .oneRight h5 {
+        font-size: 16px;
+    }
+    .oneAnimationBlock .sub_one:nth-child(4) .animationBlockContent {
+        width: 100%;
+    }
+    .animationBlockContent span {
+        font-size: 30px;
+    }
+    .animationBlockContent p {
+        font-size: 18px;
+    }
+    .oneAnimationBlockFirst,
+     .oneAnimationBlockSecond,
+     .oneAnimationBlockThird {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .oneLeft {
+        margin-bottom: 10px;
+    }
+    .sub_one{
+        transform:scale(1);
+    }
+    .wrap_index .one .slider{
+        width: 219px;
+        height: 443px;
+        padding-top: 60px;
+        margin: 40px auto;
+        margin-bottom: 30px;
+    }
+    .respClear{
+        clear:both;
+        float:none;
+    }
+    .one_icon {
+        background-position: top center;
+        padding-top: 70px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .oneRight ul{
+        position:initial;
+    }
+    .one .slider, .oneAnimationBlock{
+        margin-top:0;
+    }
+    /*end index*/
+    /*marketing*/
+   .marketing_block_left img {
+        width: 90%;
+    }
+   .invite_block_left {
+        padding-left: 0;
+    }
+   .invite_block_right img {
+        width: 90%;
+    }
+   .invite_block {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   .invite_block_left ol{
+        padding-left: 15px;
+   }
+   .flowers{
+        width: 40vw;
+        height: 40vw;
+        bottom: -70px;
+   }
+   .broker_mac{
+        background-size: 50%;
+   }
+   .broker_block_right li{
+        font-size: 16px;
+        padding-left: 65px;
+        padding-right: 10px;
+   }
+   .broker_block_lineY>div{
+       position:relative;
+   }
+    /*end marketing*/
+    /*education*/
+    .sub-nav-tabs .nav-tabs li a{
+        font-size: 14px;
+        padding: 13px 5px;
+    }
+    .how_to_trade_block2_left li {
+        font-size: 14px;
+        line-height: 37px;
+        padding-left: 37px;  
+    }
+    .how_to_trade_block2 {
+        background-position: -300px 0;
+    }
+        
+    .how_to_trade_block3_left, .how_to_trade_block3_right {
+        transform: scale(1);
+        float: none;
+        width: 100%;
+    }
+    #snake{
+        float:none;
+        margin: 0 auto;
+    }
+    #snakesTwo{
+        float:none;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-bottom: 40px;
+    }
+    .how_to_trade_block3_left {
+        margin-top: 18px;
+        padding-right: 127px;
+    }
+    .how_to_trade_block3{
+        background-image:none;
+    }
+        /*end education*/
+    /*about us*/
+    .fxl_animation_block {
+        left: 5vw;
+        transform: scale(0.9);
+    }
+    .blocks_svg_animation {
+        left: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about_us_svg_blocks{
+        background-color: #131313;
+        background-image:none;
+    }
+    /*end about us*/
+    /*open account*/
+    .personal_information,
+    .account_information{
+        width: 100%;
+    }
+    .sub_logo_open_account{
+        text-align: right;
+        overflow:hidden;
+    }
+    .sub_logo_open_account img {
+        width: 130%;
+        margin-left: -200px;
+    }
+    .open_account {
+        padding-bottom: 28px;
+    }
+    /*end open accout*/
+    /*legal*/
+    .legal_one_block h2,
+    .legal_three_block h2 {
+        font-size: 26px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .legal_bottom h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    /*end legal*/
+    /*tools_ec*/
+    .wrap_ec {
+        padding-top: 9vw;
+    }
+    /* end tools_ec*/
+    /*tools_ai*/
+    .wrap_ai_right p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .asset_inndex_p p {
+        font-size: 16px;
+    }
+    .wrap_ai {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .wrap_ai .nav-tabs a{
+        font-size: 18px;
+    }
+    .wrap_ai .nav-tabs li strong{
+        width:100%;
+    }
+    /*end tools_ai*/
+}/*end 767*/
+@media only screen and (max-width: 700px){
+    /*index*/
+    .mobileTablet{
+        padding: 14px 4%;
+        margin-top: 33px;
+    }
+    .header_index {
+        background-size: cover;
+        background-position: right;
+    }
+    /*end index*/
+    
+     /*about us*/
+    
+     /*end about us*/
+}
+@media only screen and (max-width: 650px) {
+    /*index*/
+   .two .blockAccaunts .left,
+   .blockAccaunts .left:last-child {
+        margin-right: 40px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+   .two {
+        padding-bottom: 30px;
+    } 
+   /*end index*/
+   /*education*/
+   .how_to_trade_block2{
+       background:none;
+   }
+   .how_to_trade_block2_left, .how_to_trade_block2_right {
+        width: 100%;
+        float: none;
+    }
+   .how_to_trade_block2_right img {
+        width: 120%;
+        margin-left: 14vw;
+    }
+   .how_to_trade_block {
+        padding-bottom: 22px;
+    }
+   .how_to_trade_block2_right{
+        margin-top: 40px;
+   }
+   /*end education*/
+}@media only screen and (max-width: 667px){
+     .blog_block .col-lg-6{
+         text-align:center;
+     }
+     .blog_left_menue{
+        padding-top: 174px;
+        transition:all 1s;
+     }
+     .blog_left_menue.active{
+        padding-top: 50px;
+      }
+     .blog_left_menue a{
+        font-size: 13px;
+        line-height: 19px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+ }
+@media only screen and (max-width: 600px){
+    /*index*/
+    .ellipseBlock{
+        margin-left: 333px;
+    }
+    .bg_mobile{
+        background-position-x: -100px;
+    }
+    .mobileMob {
+        width: 20vw;
+        padding-top: 9%;
+    }
+    .mobileTablet {
+        padding: 13px 4%;
+        margin-top: 46px;
+    }
+    .fourRight {
+        padding-left: 12vw;
+    }
+    /*end index*/
+    /*marketing*/
+    .mens_responsive img{
+        width:100%;
+    }
+    .mark_circle{
+        width: 13vw;
+        height: 13vh;
+    }
+    .invite_block_right p{
+        font-size: 26px;
+    }
+    .flowers {
+        width: 43vw;
+        height: 43vw;
+    }
+    /*end marketing*/
+    /*contact*/
+    .flag{
+        width:100%;
+        float:none;
+    }
+    .contact_block1_left h2{
+        font-size: 30px;    
+        line-height: 39px;
+        margin-top: 110px;
+    }
+    /*end contact*/
+    /*education*/
+    .sub-nav-tabs .nav-tabs>li{
+        width: 21%;
+    }
+    .sub-nav-tabs .nav-tabs .how_to_trade{
+        width:34%;
+    }
+    .sub-nav-tabs .nav-tabs .glossary{
+        width:24%;
+    }
+    /*end education*/
+    /*education glossary*/
+     .table_glossary td,
+     .table_glossary tr td:first-child{
+        width: 100%;
+        display: block;
+     }
+     .table_glossary tr td:first-child{
+         padding-top:10px;
+     }
+    /*end education glossary*/
+     /*about us*/
+    .fxl_animation_block {
+        left: 7vw;
+        transform: scale(0.8);
+    }
+    .header_about_us_right p{
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+    .header_about_us_right h2{
+         font-size: 18px;
+    }
+    .sub_about_us_animation_block1,
+    .sub_about_us_animation_block2{
+        left: initial;
+        right: 0;
+    }
+    .sub_about_us_animation_block3{
+        left: initial;
+        right: 90px;
+    }
+    .sub_about_us_animation_block1{
+         top: 176px;
+    }
+    .sub_about_us_animation_block2 {
+        top: 158px;
+    }
+    .sub_about_us_animation_block3 {
+        top: 223px;
+    }
+    .about_us_svg_blocks {
+        padding-bottom: 490px;
+    }
+    /*end about us*/
+    /*open_account*/
+    .open_account input, .open_account select{
+        max-width: 250px;
+        height: 36px;
+        font-size: 15px;
+    }
+    .wrap_open_account .telephoneNumber {
+        width: 180px;
+    }
+    .wrap_open_account .telephoneCode {
+        max-width: 71px;
+    }
+    /*end open_account*/
+    .wrap_open_account .birthD, .wrap_open_account .birthM {
+        max-width: 60px;
+        margin-right: 0;
+    }
+    .wrap_open_account .birthY {
+        max-width: 121px;
+    }
+    .forCaptha{
+        max-width: 250px;
+    }
+    .open_account {
+        padding-bottom: 30px;
+    }
+    .wrap_open_account label{
+        font-size: 15px;
+    }
+    .wrap_open_account h2{
+        font-size: 28px;
+    }
+    .account_information,
+    .personal_information{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    /*legal*/
+    .legal_two_block_left,
+    .legal_three_block_left,
+    .legal_icons4{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    /*legal*/
+    /*tools_cfds*/
+    .cfds4_left h3 {
+        padding-right: 0;
+        padding-top: 20vw;
+    }
+    .cfds2 .cfds2_block4__p {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: 20px;
+    }
+    .cfds3_icons img {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    /*end tools_cfds*/
+    /*tools_ai*/
+    .wrap_ai .nav-tabs li{
+        width:50%;
+    }
+    .wrap_ai .nav-tabs li strong {
+        width: 70%;
+    }
+    /*end tools_ai*/
+}/*end 600*/
+
+@media only screen and (max-width: 500px){
+    /*index*/
+    .fourRight {
+        padding-left: 0;
+        padding-right: 0;
+    }
+     .mobileBtn .next-page{
+        display:none;
+    }
+     .mobileBtn{
+         text-align: center;
+         margin-top: 50px;
+     }
+    .mobileMob {
+        width: 22vw;
+    }
+    .mobileTablet {
+        width: 54vw;
+    }
+    .katerovki{
+        background-image:none;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 25px;
+        height: auto;
+    }
+    .waitingFor p {
+        font-size: 19px;
+    }
+    .br_responcive{
+        display:block;
+    }
+    .forexLargest{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .blockCenter{
+        padding-bottom: 200px;
+    }
+    .blockCenter h2{
+        line-height: 31px;
+    }
+    .form h2 {
+        font-size: 26px;
+    }
+    .sub_submit i {
+        line-height: 30px;
+    }
+    .formLeft, .formRight {
+        float: left;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .form{
+        padding: 39px 30px;
+    }
+    /*end index*/
+    /*marketing*/
+   .mark_icon{
+        padding-left: 56px;
+   }
+   .marketing_block_right li{
+       font-size: 17px;
+   }
+   .marketing_block_responsive {
+        width: 100%;
+    }
+   .marketing_block_left h2 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 15px;
+        margin-top: 19px;
+    }
+   .mens_block_lineY .lineY{
+       font-size:16px;
+   }
+   .invite_block_left h3{
+        line-height: 22px;
+   }
+   .broker_mac p {
+        padding-bottom: 141px;
+    }
+    /*end marketing*/
+    /*contact*/
+    .chat a,
+    .support a{
+            background-size: contain;
+    }
+    /*end contact*/
+    /*education*/
+    .sub-nav-tabs .nav-tabs li a{
+        font-size: 13px;
+    }
+    .how_to_trade_block_left {
+        padding-top: 45px;
+    }
+    .snakeBlockP2{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .snakeBlockP {
+        font-size: 12px;
+    }
+    .snakeBlock1{
+        width: 280px;
+        left: 71px;
+    }
+    .snakeBlock1_left{
+        padding-top: 18px;
+    }
+    .snakeBlock2_right .snakeBlockP2{
+        font-size: 18px;
+    }
+    .snakeBlock2{
+        width: 340px;
+        left: 66px;
+        top: 200px;
+    }
+    .snakeBlock3{
+        width: 310px;
+        top: 363px;
+        left: 44px;
+    }
+    .snakeBlock4 {
+        width: 430px;
+        left: -14px;
+        top: 557px;
+    }
+    .snakeBlock4_right{
+        max-width: 271px;
+    }
+    .snakeBlock5{
+        width: 360px;
+        top: 873px;
+        left: 15px;
+    }
+    .snakesTwoBlock2_left .snakeBlockP2{
+        font-size: 18px;
+        text-align: right;
+    }
+    .snakesTwoBlock3{
+        width: 330px;
+        left: 56px;
+        top: 377px;
+    }
+    .snakesTwoBlock3_right{
+        max-width: 150px;
+        margin-left: 10px;
+    }
+    #snake{
+        width: 300px;
+    }
+    .snakeBlock4_right .snakeBlockP {
+        margin-bottom: 10px;
+    }
+    .snakeBlock4_center img{
+        margin-right: 15px;
+    }
+    .snakeBlock5_left .snakeBlockP{
+        max-width: 226px;
+    }
+
+.how_to_trade_block3 img{
+    max-width:72px;
+}
+.sub_how_to_trade_dark img {
+    width: 130%;
+    max-width: 1016px;
+}
+.snakeBlock1_center{
+    margin-left: 13px;
+}
+.snakeBlock2_right{
+    padding-left: 12px;
+}
+.snakeBlock5_left{
+    margin-top: -10px;
+}
+#snakesTwo {
+    width: 470px;
+}
+.snakesTwoBlock1_center img{
+    margin-right: 11px;
+}
+.snakesTwoBlock1{
+     left: 76px;
+}
+.snakesTwoBlock2{
+    top: 213px;
+    left: 43px;
+}
+.snakesTwoBlock2_left{
+    max-width: 210px;
+    padding-top: 0;
+}
+.snakesTwoBlock2 .snakeBlockP2 > span{
+    display:block;
+}
+.snakesTwoBlock2_left .snakeBlockP{
+    padding-left: 31px;
+}
+.snakesTwoBlock4{
+    top: 518px;
+    left: 121px;
+}
+.snakesTwoBlock4_center img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+    /*end education*/
+     /*about us*/
+    .fxl_animation_block {
+        transform: scale(0.7);
+    }
+    .header_about_us_right h2{
+        margin-left:0;
+    }
+    .about_us_svg_textBlok p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .about_us_svg_textBlok h3{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .sub_about_us_animation_block1{
+         top: 196px;
+    }
+    .sub_about_us_animation_block2 {
+        top: 168px;
+    }
+    .sub_about_us_animation_block3 {
+        top: 263px;
+    }
+    .about_us_svg_blocks {
+        padding-bottom: 490px;
+    }
+    .blocks_svg_animation{
+        padding-right: 10px;
+    }
+    .about_us_svg_textBlok{
+        left: 92px;
+    }
+    .sub_logoAboutUs2 img{
+        margin-top: -80px;
+    }
+    .header_about_us{
+        background-color: #131313;
+        background-image:none;
+    }
+    /*end about us*/
+    /*open account*/
+    .account_information table tr td:first-child,
+    .account_information table tr td:last-child,
+    .wrap_open_account tr td:last-child,
+    .wrap_open_account tr td:first-child{
+        max-width: 100%;
+        width: 100%;
+        display: block;
+    }
+    .open_account input, .open_account select{
+        max-width: 100%;
+    }
+    .wrap_open_account .telephoneNumber {
+        width: calc(100% - 71px);
+    }
+    .wrap_open_account tr td.birDay{
+        text-align:left;
+    }
+    .forCaptha {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    /*end open account*/
+    /*faq*/
+    .faq_my_account h3{
+        line-height: 25px;
+        padding-bottom: 10px;
+        background-position: left 6px;
+    }
+    #accordion h3{
+        font-size: 14px;
+    }
+    #accordion > div > div > p, #accordion p{
+        font-size: 14px;
+    }
+    #accordion .nav-tabs>li>a{
+        margin-right:0;
+    }
+    /*faq*/
+}/*end 500*/
+@media only screen and (max-width: 414px){
+    /*index*/
+    .oneLeft img {
+        width: 80%;
+    }
+    .katerovkiLogo {
+        width: 80%;
+    }
+    .waitingFor{
+        width: 300px;
+    }
+    .form form p:nth-child(2) input{
+        margin-top:10px;
+    }
+    .form {
+        padding: 20px 10px;
+        padding-bottom: 28px;
+    }
+    .form h2 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .blockForm {
+        padding-left: 12px;
+        padding-right: 12px;
+        background-image: url('../images/bg_form320.png');
+        padding-top: 39px;
+        padding-bottom: 28px;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 0px;
+    }
+    .sub_submit i {
+        line-height: 20px;
+    }
+    .sub_submit .mobileBtn {
+        margin-top: 0;
+    }
+    .lineY{
+        font-size: 17px;
+    }
+    .bg_mobile {
+        background-position-x: -180px;
+    }
+    .ellipseBlock {
+        margin-left: 253px;
+    }
+    .mobileMob{
+        margin-right: 22px;
+        margin-left: 15px;
+    }
+    .mobileTablet {
+        width: 57vw;
+        padding: 8px 4%;
+        margin-top: 34px;
+    }
+    .waitingFor p {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .blockCenter{
+        padding-bottom: 100px;
+    }
+    /*end index*/
+     /*marketing*/
+    .mark_circle{
+        top: 85px;
+    }
+    .invite_block{
+        border-radius:0;
+    }
+    /*end marketing*/
+    /*contact*/
+    .contact_block2Right h2{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 11px;
+    }
+    .contact_block2Left a{
+        font-size: 16px;
+    }
+    .header_contact{
+        background-image:none;
+    }
+    
+    /*end contact*/
+    /*education*/
+    .sub-nav-tabs .nav-tabs li a{
+        font-size: 12px;
+    }
+    .how_to_trade_block_left p{
+        margin-top: 33px;
+    }
+    .how_to_trade_block_right{
+        padding-top: 35px;
+    }
+    .how_to_trade_block3 {
+        background-image: url('../images/education/how_to_trade/bg_how_to_trade.png');
+        background-position:bottom center;
+    }
+    /*end education*/
+    /*about us*/
+    .fxl_animation_block {
+        transform: scale(0.6);
+    }
+    .header_about_us_left img {
+        margin-top: 20px;
+    }
+    .header_about_us_right{
+        padding-top: 10px;
+    }
+    .header_about_us_right p{
+        line-height: 23px;
+    }
+    .header_about_us_right h2 {
+        font-size: 16px;
+    }
+    .fxl_animation_block1, .fxl_animation_block2, .fxl_animation_block3 {
+        top: 70px;
+    }
+    .about_us_svg_textBlok h3 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+    .about_us_svg_textBlok p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_us_svg_blocks {
+        padding-bottom: 520px;
+    }
+    .header_about_us{
+        padding-bottom: 295px;
+    }
+    /*end about us*/
+    /*faq*/
+    .faq_my_account .sub_faq_gold p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    #faq_my_account .dep, #faq_my_account .wiz {
+        min-width: 120px;
+    }
+    .faq_my_account p{
+            margin-bottom: 10px;
+    }
+    #faq_my_account .nav{
+        transform: scale(1);
+    }
+    .header_faq{
+        padding-top: 22px;
+    }
+    /*end faq*/
+    /*legal*/
+    .legalTable tr,
+    .legalTable td,
+    .legalTable td:first-child {
+        width: 100%;
+        display:block;
+    }
+    .legal_list ol li, .wrap_legal p {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        line-height: 24px;
+    }
+    .legal_one_block h2, .legal_three_block h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .wrap_legal .legal_two_block_right p {
+        margin-top: 12px;
+    }
+    .legal_three_block_left h3 {
+        margin-top: 70px;
+    }
+    .legal_bottom h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h2.legal_question {
+        font-size: 20px;
+    }
+    .legal_four_block .legal_question {
+        line-height: 25px;
+    }
+    span.legal_question {
+        font-size: 16px;
+    }
+    /*end legal*/
+    /*account types*/
+    .account_type_blocks_body,
+    .accGold .account_type_blocks_body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .account_type_header_right p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .account_type_header_right {
+        padding-top: 20px;
+    }
+    /*end account types*/
+    /*tools_cfds*/
+    .cfds1_left_header img {
+        right: 5vw;
+        position: absolute;
+        width: 95vw;
+    }
+    .cfds1,
+    .cfds2,
+    .cfds3,
+    .cfds6,
+    .cfds7{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .cfds4_left, .cfds4_right {
+        margin-top: 45px;
+    }
+    .cfds5_right,
+    .cfds5_icons {
+        margin-top: 45px;
+    }
+    .cfds7 li {
+        background-position: left top 7px;
+        background-size: 6%;
+    }
+    /* end tools_cfds*/
+    /*tools_strategies*/
+    .strategies_2 h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .wrap_strategies p {
+        font-size: 16px;
+        line-height: 24px!important;
+    }
+    /* end tools_strategies*/
+}/*end 414*/
+ @media only screen and (max-width: 413px){
+     /*education*/
+      .how_to_trade_block2_left li{
+        font-size: 13px;
+    }
+    .how_to_trade_block_left p{
+        margin-top: 33px;
+    }
+    .how_to_trade_block_right{
+        padding-top: 25px;
+    }
+    .how_to_trade_block_right p{
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+     .how_to_trade_block3_left{
+         padding: 0 !important;
+     }
+     .snakeBlock1{
+        top: 20px;
+        left: -3px;
+        width: 310px;
+     }
+     .snakeBlock1_left{
+         max-width: 220px;
+     }
+     .snakeBlock2{
+        left: -3px;
+        top: 150px;
+     }
+     .snakeBlock3{
+        left: -6px;
+        top: 298px;
+     }
+     .snakeBlock3_left{
+        padding-left: 0;
+        max-width: 227px;
+        margin-right: 10px;
+     }
+     .snakeBlock3_left .snakeBlockP{
+         max-width: 100%;
+     }
+     .snakeBlock4_right{
+        max-width: 230px;
+        margin-top: 70px;
+     }
+     .snakeBlock4{
+         left: -21px;
+         top: 404px;
+     }
+     .snakeBlock4_center img {
+        margin-right: 10px;
+    }
+     .snakeBlock5{
+        top: 848px;
+        left: -8px;
+     }
+     .snakesTwoBlock1 {
+        left: -5px;
+        top: -8px;
+    }
+     .snakeBlock5_center img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+     .snakeBlock3_center {
+        padding-top: 24px;
+    }
+     .snakesTwoBlock2 {
+        top: 148px;
+        left: 14px;
+    }
+     .snakesTwoBlock2_center {
+        padding-top: 12px;
+    }
+     .snakesTwoBlock3 {
+        left: -15px;
+        top: 301px;
+    }
+     .snakesTwoBlock3_right{
+        max-width: 200px;
+     }
+     .snakesTwoBlock4 {
+        top: 409px;
+        left: 33px;
+    }
+     #snakesTwo{
+        padding-bottom: 0;
+     }
+     .how_to_trade_block3_right{
+        margin-top: -19px;
+        padding-top: 23px;
+        padding-left: 20px;
+        border-top: 1px dashed #bd9339;
+     }
+     #snake path,
+     #snakesTwo path{
+         stroke-opacity: 0;
+     }
+     /*end education*/
+ }/*end 413*/
+@media only screen and (max-width: 375px){
+    /*education glossary*/
+    .nav-tabs-glossary li a{
+        margin-right: 3px;
+    }
+    .sub-nav-tabs .nav-tabs li a {
+        font-size: 11px;
+        padding: 13px 0px;
+    }
+    /*end education glossary*/
+    /*about us*/
+    .fxl_animation_block {
+        transform: scale(0.5);
+    }
+    .header_about_us {
+        padding-bottom: 205px;
+    }
+    .sub_about_us_animation_block1 {
+        top: 206px;
+    }
+    .sub_about_us_animation_block2 {
+        top: 178px;
+    }
+    .sub_about_us_animation_block3 {
+        top: 283px;
+    }
+    /*end about us*/
+}/*end 375*/
+@media only screen and (max-width: 320px){
+    /*index*/
+    .mobileMob {
+        margin-left: 7px;
+    }
+    .vsLogoLeft img, .vsLogoRight img{
+        width: 100vw;
+    }
+    
+    .sub_submit i {
+        font-size: 13px;
+    }
+    .lineY{
+        font-size: 16px;
+    }
+    .header_index {
+        background-image: url('../images/bgHeader320.png');
+    }
+    .blockCenter {
+        padding-bottom: 59px;
+    }
+    .mobileTablet{
+        margin-top: 23px;
+    }
+    /*end index*/
+    /*marketing*/
+    .mark_circle{
+        top: 65px;
+    }
+    .flowers{
+        bottom: -40px;
+        right: 0;
+    }
+    /*end marketing*/
+    /*education*/
+    .nav-tabs-glossary li a{
+        margin-right: 6px;
+    }
+    .how_to_trade_block3_right{
+        padding-left: 0;
+    }
+    /*end education*/
+    /*about us*/
+    .header_about_us_left img {
+        margin-top: 10px;
+    }
+    .fxl_animation_block {
+        transform: scale(0.4);
+    }
+    .fxl_animation_block1, .fxl_animation_block2, .fxl_animation_block3 {
+        top: 60px;
+    }
+    /*end about us*/
+    /*open accout*/
+    .wrap_open_account h2 {
+        font-size: 24px;
+    }
+    /*end open accout*/
+    /*faq*/
+    #faq_my_account .nav{
+        transform: scale(0.9);
+    }
+    /*end faq*/
+}
+/*end 320*/

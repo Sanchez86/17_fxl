@@ -1,0 +1,191 @@
+.wrap_open_account {
+    padding-top: 113px;
+}
+.sub_logo_open_account {
+    margin-bottom: 65px;
+}
+.sub_logo_open_account img{
+    width:100%;
+    max-width:1286px;
+}
+
+.form-row input, .form-row select {
+    border: 1px solid #acacac;
+    width: 100%;
+    color: #2b2b2b;
+    font-family: 'WhitneyBook';
+    line-height: 36.5px;
+    font-size: 14px;
+    margin: 0 0 13px;
+    background: rgba(255, 255, 255, 0.00);
+    padding: 2px 15px;
+    border-radius: 0px;
+    outline: 0;
+}
+.form-row {
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+small.error {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    background: #ffffff;
+    padding: 0 4px;
+    font: 10px/11px 'Roboto-Light',sans-serif !important;
+    border-radius: 7px;
+    color:#cc0000;
+}
+.password-rules {
+    position: relative;
+    width: 340px;
+    border: 1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 15px 12px;
+    position: absolute;
+    right: 0;
+    margin: 18px 0 0;
+    background: #ffffff;
+    text-align: left;
+    z-index: 1;
+    display: none;
+    top: 100%;
+}
+.phone-code {
+    width: 26.7%;
+    float: left;
+}
+.phone-number {
+    float: right;
+    width: 69.1%;
+}
+#registration-country {
+    padding: 11px 10px;
+}
+.form-blocks {
+    float: right;
+    width: 50%;
+    max-width: 450px;
+}
+.form-blocks:first-of-type {
+    float: left;
+}
+.sub_form {
+    padding-bottom: 72px;
+    background-image: url(../images/open_account/bg_open_account.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.sub_form > .container .form-wrap {
+    margin-left: 7.2%;
+    margin-right: 7.2%;
+}
+#registration-accept {
+    width: auto;
+}
+.checkbox-wrap label {
+    width: auto;
+    font-size: 12px;
+    color: #2b2b2b;
+    font-family: 'WhitneyBook';
+}
+.checkbox-wrap label a {
+    color: #d2a446;
+    text-decoration:underline;
+}
+.wrap_open_account input[type="checkbox"] + label::before {
+    background-position: 0px 0px;
+}
+.wrap_open_account input[type="checkbox"] + label::before, input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    margin: 0 19px -4px 0px;
+    background-image: url('../images/open_account/sprite.png');
+    background-repeat: no-repeat;
+}
+.wrap_open_account input[type="checkbox"]:checked + label::before {
+    background-position: -17px 0px;
+}
+.checkbox-wrap input[type="checkbox"] {
+    display: none;
+}
+.keep-logged input, .checkbox-wrap input {
+    float: left;
+    margin: 0 12px 0 0;
+    width: 13px;
+    height: 13px;
+}
+.checkbox-wrap input {
+    margin: 3px 12px 0 0;
+}
+.field-registration-accept small.error {
+    left: 32px;
+    bottom: -16px;
+}
+.field-registration-confirmpassword {
+    margin-bottom: 16px;
+}
+.form-wrap .center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 47px;
+}
+.center span{
+    display:none;
+}
+.center input[type="submit"] {
+    outline: 0 !important;
+    font-size: 18px;
+    color: #373737;
+    font-family: 'WhitneyBook';
+    background-color: rgba(255, 255, 255, 0.00);
+    border: 1px solid #444444;
+    border-radius: 30px;
+    line-height: 47px;
+    padding: 0 58px;
+    padding-left: 66px;
+    background-image: url(../images/lineY.png);
+    background-repeat: no-repeat;
+    background-position: 25px center;
+    transition: background-position 0.5s;
+}
+.center input[type="submit"]:hover {
+    background-position: 10px center;
+}
+.op_footer{
+    text-align:center;
+}
+.op_footer h3 {
+    color: #2b2b2b;
+    font-size: 18px;
+    font-family: 'WhitneySemiBold';
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+.op_footer p {
+    color: #2b2b2b;
+    font-size: 14px;
+    font-family: 'WhitneyBook';
+    line-height: 24px;
+}
+.password-rules ul li {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-family: 'WhitneyBook';
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-image: url(../images/education/how_to_trade/list_icon.png);
+    background-repeat: no-repeat;
+    background-position: left top 3px;
+    background-size: 4%;
+}
+/*end menue_for_open_account*/

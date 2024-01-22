@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'WhitneyBook';
+    src: url('../fonts/WhitneyBook.eot') format('embedded-opentype'), url('../fonts/WhitneyBook.ttf') format('truetype'), url('../fonts/WhitneyBook.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'WhitneyLight';
+    src: url('../fonts/WhitneyLight.eot') format('embedded-opentype'), url('../fonts/WhitneyLight.ttf') format('truetype'), url('../fonts/WhitneyLight.woff') format('woff');
+    src: url('../fonts/Roboto-Light.eot') format('embedded-opentype'), url('../fonts/Roboto-Light.otf') format('opentype'), url('../fonts/Roboto-Light.svg') format('svg'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'WhitneyMedium';
+    src: url('../fonts/WhitneyMedium.eot') format('embedded-opentype'), url('../fonts/WhitneyMedium.ttf') format('truetype'), url('../fonts/WhitneyMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'WhitneySemiBold';
+    src: url('../fonts/WhitneySemiBold.eot') format('embedded-opentype'), url('../fonts/WhitneySemiBold.ttf') format('truetype'), url('../fonts/WhitneySemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.eot') format('embedded-opentype'), url('../fonts/Roboto-Light.otf') format('opentype'), url('../fonts/Roboto-Light.svg') format('svg'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Whitney-Bold';
+    src: url('../fonts/Whitney-Bold.otf') format('opentype');
+}

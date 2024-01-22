@@ -1,0 +1,904 @@
+.header_education{
+    background-image: url('../images/marketing/bg_menue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sub-nav-tabs,
+.sub-nav-tabs .nav-tabs{
+    background-color:#131313;
+    border:0;
+    cursor:pointer;
+}
+.sub-nav-tabs .nav-tabs>li{
+    transition:all 0.5s;
+    margin-bottom:0;
+    width:25%;
+    border-top:0;
+    border-bottom:0;
+    border-color:#262626;
+    cursor:pointer;
+}
+.sub-nav-tabs .nav-tabs>li.active,
+.sub-nav-tabs .nav-tabs>li:hover{
+    background-color: #000000;
+}
+.sub-nav-tabs .nav-tabs li a{
+    color:#f5f5f5;
+    font-size:18px;
+    text-transform:uppercase;
+    font-family: 'WhitneyBook';
+    border-color:#262626;
+    border-radius:0!important;
+    border-top:0;
+    border-bottom:0;
+    padding: 27px 15px;
+    padding-left: 50px;
+    border-right: 0;
+}
+.sub-nav-tabs .nav-tabs li:last-child a{
+    border-right: 1px solid #262626;
+}
+
+.sub-nav-tabs .nav-tabs>li.active>a,
+.sub-nav-tabs .nav-tabs>li>a:hover,
+.sub-nav-tabs .nav-tabs>li.active>a:hover,
+.sub-nav-tabs .nav-tabs>li.active>a:focus{
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 38%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:0!important;
+    cursor:pointer;
+}
+#border {
+    height: 10px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../images/education/angle.png);
+    background-position: top center;
+    margin-left:15px;
+}
+/*--------how_to_trade----------------*/
+.how_to_trade_block{
+    padding-bottom: 42px;
+}
+.how_to_trade_block_left,
+.how_to_trade_block_right{
+    width:50%;
+    float:left;
+}
+.how_to_trade_block_left img{
+    width:100%;
+    max-width:916px;
+}
+.how_to_trade_block_left p{
+    color:#2b2b2b;
+    font-size:30px;
+    font-family: 'WhitneyBook';
+    text-align: center;
+    margin-top: 43px;
+}
+.how_to_trade_block_right p{
+    color:#181818;
+    font-size:16px;
+    font-family: 'WhitneyBook';
+    line-height:26px;
+    margin-bottom: 25px;
+    max-width: 538px;
+}
+.how_to_trade_block_right{
+    padding-top: 55px;
+    padding-left: 23px;
+}
+.how_to_trade_block_left{
+    padding-top: 185px;
+}
+.how_to_trade_block2_left,
+.how_to_trade_block2_right{
+    width:50%;
+    float:left;
+}
+.how_to_trade_block2_left li {
+    background-image: url('../images/education/how_to_trade/list_icon.png');
+    background-repeat:no-repeat;
+    background-position:left center;
+    color:#181818;
+    font-size:18px;
+    font-family: 'WhitneyMedium';
+    text-transform:uppercase;
+    padding-left: 46px;
+    line-height:48px;
+}
+.how_to_trade_block2_left{
+    padding-left: 20vw;
+    padding-top: 113px;
+}
+.how_to_trade_block2_right img{
+    width:100%;
+    max-width:945px;
+}
+.how_to_trade_block2 {
+    background-image: url('../images/education/how_to_trade/bg_how_to_trade_white.png');
+    padding-bottom: 41px;
+    background-repeat:no-repeat;
+}
+.how_to_trade_block3 {
+    background-image: url('../images/education/how_to_trade/bg_how_to_trade.png');
+    background-repeat: no-repeat;
+    background-color: #131313;
+    background-size: cover;
+}
+.sub_how_to_trade_dark{
+    text-align:right;
+    padding-top:49px;
+    margin-bottom: 3px;
+}
+.sub_how_to_trade_dark img{
+    width: 100%;
+    max-width: 1016px;
+}
+.how_to_trade_block3_left,
+.how_to_trade_block3_right{
+    width:50%;
+    float:left;
+    padding-left:24px;
+    padding-right:15px;
+}
+.how_to_trade_block3_left{
+    padding-right: 257px;
+}
+#snake{
+    width:350px;
+    float:right;
+    position:relative;
+    padding-top: 82px;
+}
+.snakeBlockP{
+    color:#bbbaba;
+    font-size:13px;
+    line-height:18px;
+    font-family: 'WhitneyBook';
+}
+.snakeBlockP2{
+    color:#ad8c42;
+    font-family: 'WhitneyBook';
+    margin-bottom: 9px;
+    font-size: 18px;
+}
+/*snakeBlock1*/
+.snakeBlock1{
+    position:absolute;
+    top:34px;
+    left: 100px;
+    width: 500px;
+}
+.snakeBlock1_left{
+    max-width:168px;
+    padding-top: 8px;
+}
+.snakeBlock1_left p{
+    text-align:right;
+}
+.snakeBlock1_center{
+    margin-left: 23px;
+    padding-top: 17px;
+}
+.snakeBlock1_right p{
+    font-size:18px;
+    margin-top: 19px;
+}
+.snakeBlock1_right{
+    text-align:center;
+    margin-left: 22px;
+    margin-top: 36px;
+}
+/*end snakeBlock1*/
+/*snakeBlock2*/
+.snakeBlock2{
+    position:absolute;
+    top: 229px;
+    left: 4px;
+    width: 470px;
+}
+.snakeBlock2_right p{
+    max-width: 220px;
+}
+.snakeBlock2_left .snakeBlockP2{
+    font-size:21px;
+    text-transform:uppercase;
+    margin-top: 7px;
+    font-family: 'WhitneyMedium';
+}
+.snakeBlockP2 span{
+    font-size:16px;
+    text-transform:none;
+    margin-top: 8px;
+}
+.snakeBlock2_left{
+    text-align:center;
+    padding-right: 28px;
+    margin-top: 35px;
+}
+.snakeBlock2_center{
+    padding-top: 22px;
+}
+.snakeBlock2_right p span{
+    color:#bd9339;
+}
+.snakeBlock2_right{
+    padding-top: 14px;
+    padding-left: 22px;
+}
+.snakeBlock2_right .snakeBlockP2{
+    text-transform:uppercase;
+    font-family: 'WhitneyMedium';
+    font-size:21px;
+}
+/*end snakeBlock2*/
+/*snakeBlock3*/
+.snakeBlock3{
+    position:absolute;
+    top: 415px;
+    left: 78px;
+    width: 480px;
+}
+.snakeBlock3_left .snakeBlockP{
+    max-width: 200px;
+    text-align: right;
+}
+.snakeBlock3_right{
+    max-width: 164px;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 43px;
+}
+.snakeBlock3_right .snakeBlockP2{
+    font-size: 18px;
+    line-height:24px;
+    margin-top: 6px;
+}
+.snakeBlock3_left{
+    padding-top: 14px;
+    padding-left: 22px;
+    max-width: 200px;
+    text-align: right;
+    margin-right: 20px;
+}
+.snakeBlock3_center{
+    padding-top: 29px;
+}
+/*end snakeBlock3*/
+/*snakeBlock4*/
+.snakeBlock4{
+    position:absolute;
+    top: 647px;
+    left: -62px;
+    width: 580px;
+}
+.snakeBlock4_right{
+    max-width: 305px;
+    margin-top: -20px;
+    margin-left: -3px;
+}
+.snakeBlock4_left .snakeBlockP2{
+    margin-top: 14px;
+}
+.loss_profit span {
+    display: inline-block;
+    background-image: url('../images/education/how_to_trade/list_icon_mini.png');
+    background-repeat:no-repeat;
+    background-position:left center;
+    color:#bd9339;
+    padding-left: 22px;
+}
+.snakeBlock4_right .snakeBlockP{
+    margin-bottom: 18px;
+}
+.snakeBlock4_center img{
+    margin-left: 18px;
+    margin-right: 25px;
+}
+.snakeBlock4_center{
+    padding-top: 75px;
+}
+.snakeBlock4_left{
+    padding-top: 90px;
+}
+/*end snakeBlock4*/
+/*snakeBlock5*/
+.snakeBlock5{
+    position:absolute;
+    top: 993px;
+    left: 65px;
+    width: 430px;
+}
+.snakeBlock5_left .snakeBlockP{
+    max-width: 210px;
+    text-align: right;
+}
+.snakeBlock5_right{
+    text-align:right;
+    padding-top: 13px;
+}
+.snakeBlock5_right .snakeBlockP2{
+    margin-top: 9px;
+}
+.snakeBlock5_center img{
+    margin-left: 23px;
+    margin-right: 21px;
+}
+.snakeBlock5_left .snakeBlockP2{
+    text-align: right;
+}
+/*end snakeBlock5*/
+#snakesTwo{
+    width:550px;
+    float:left;
+    position:relative;
+    padding-top: 82px;
+}
+.snakesTwoBlock1 {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    width: 430px;
+}
+.snakesTwoBlock1_right {
+    max-width: 168px;
+    padding-top: 12px;
+}
+.snakesTwoBlock1_left{
+    text-align:center;
+    margin-top: 40px;
+    margin-right: 24px;
+}
+.snakesTwoBlock1_center{
+    padding-top: 21px;
+}
+.snakesTwoBlock1_left .snakeBlockP2{
+    font-size: 18px;
+    margin-top: 13px;
+}
+.snakesTwoBlock1_center img{
+    margin-left: 12px;
+    margin-right: 21px;
+}
+.nav-tabs li{
+    position:relative;
+}
+.nav-tabs li i{
+    display:inline-block;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:contain;
+    margin-left: -50px;
+}
+.how_to_trade i{
+    background-image: url(../images/education/how_to_trade/tabMenueIcon1.png);
+    width:35px;
+    height:40px;
+}
+.glossary i{
+    background-image: url('../images/education/how_to_trade/tabMenueIcon2.png');
+    width:42px;
+    height:43px;
+    margin-top: -5px;
+}
+.fvideo i{
+    background-image: url('../images/education/how_to_trade/tabMenueIcon3.png');
+    width:38px;
+    height:28px;
+}
+.ebooks i{
+    background-image: url('../images/education/how_to_trade/tabMenueIcon4.png');
+    width:36px;
+    height:26px;
+}
+
+.how_to_trade.active i,
+.how_to_trade:hover i{
+    background-image: url('../images/education/how_to_trade/tabMenueIcon1Active.png');
+}
+.glossary.active i,
+.glossary:hover i {
+    background-image: url('../images/education/how_to_trade/tabMenueIcon2Active.png');
+}
+.fvideo.active i,
+.fvideo:hover i {
+    background-image: url('../images/education/how_to_trade/tabMenueIcon3Active.png');
+}
+.ebooks.active i,
+.ebooks:hover i {
+    background-image: url('../images/education/how_to_trade/tabMenueIcon4Active.png');
+}
+/*snakesTwoBlock2*/
+.snakesTwoBlock2{
+    position: absolute;
+    top: 233px;
+    left: 65px;
+    width: 430px;
+}
+.snakesTwoBlock2_right{
+    text-align:center;
+    margin-top: 36px;
+}
+.snakesTwoBlock2_left{
+    max-width: 230px;
+    padding-top: 8px;
+}
+.snakesTwoBlock2_left .snakeBlockP{
+    text-align:right;
+    padding-left: 51px;
+}
+.snakesTwoBlock2_left .snakeBlockP2{
+    font-family: 'WhitneyMedium';
+    font-size:21px;
+    text-transform:uppercase;
+}
+
+.snakesTwoBlock2_right .snakeBlockP2{
+    font-size:21px;
+    text-transform:uppercase;
+    font-family: 'WhitneyMedium';
+    margin-top: 15px;
+}
+.snakesTwoBlock2_center {
+    padding-top: 17px;
+}
+.snakesTwoBlock2_center img{
+    margin-left: 14px;
+    margin-right: 20px;
+}
+.snakesTwoBlock2 p span {
+    color: #bd9339;
+}
+/*end snakesTwoBlock2*/
+/*snakesTwoBlock3*/
+.snakesTwoBlock3{
+    position: absolute;
+    top: 427px;
+    left: 23px;
+    width: 450px;
+}
+.snakesTwoBlock3_left .snakeBlockP2{
+    font-size:18px;
+    margin-top: 7px;
+}
+.snakesTwoBlock3_left{
+    max-width: 160px;
+    text-align: center;
+    margin-top: 31px;
+}
+.snakesTwoBlock3_center{
+    margin-left: 23px;
+    margin-top: 17px;
+}
+.snakesTwoBlock3_right{
+    max-width: 200px;
+    margin-left: 15px;
+}
+/*end snakesTwoBlock3*/
+/*snakesTwoBlock4*/
+.snakesTwoBlock4{
+    position: absolute;
+    top: 610px;
+    left: 164px;
+    width: 450px;
+}
+.snakesTwoBlock4_left{
+    max-width: 190px;
+    padding-top: 36px;
+    text-align: right;
+}
+.snakesTwoBlock4_left .snakeBlockP{
+    text-align: right;
+}
+.snakesTwoBlock4_right{
+    max-width: 90px;
+    text-align: center;
+    margin-top: 45px;
+}
+.snakesTwoBlock4_right .snakeBlockP2{
+    line-height:24px;
+}
+.snakesTwoBlock4_center{
+    padding-top: 29px;
+}
+.snakesTwoBlock4_center img{
+    margin-left: 24px;
+    margin-right: 26px;
+}
+/*end snakesTwoBlock4*/
+
+/*--------how_to_trade----------------*/
+
+/*--------glossary----------------*/
+.sub_glLogo img{
+    width:100%;
+    max-width:904px;
+}
+#glossary{
+    background-color:#eaeaea;
+    padding-top:122px;
+}
+.sub_glLogo,
+.nav-tabs-glossary{
+    width:50%;
+    float:left;
+}
+.nav-tabs-glossary li a{
+    text-transform:uppercase;
+    color:#2b2b2b;
+    font-family: 'WhitneyMedium';
+    font-size:23px;
+    border:1px solid #959595;
+    margin-right: 7px;
+    margin-bottom:23px;
+    padding: 4px 2px;
+    border-radius:4px;
+    min-width:38px;
+    max-width:38px;
+}
+.nav-tabs-glossary li.active a,
+.nav-tabs-glossary li:hover a{
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 38%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color:#bd9339!important;
+}
+.nav-tabs-glossary{
+    padding-right: 360px;
+    border:0;
+}
+.nav-tabs-glossary .nav-tabs{
+    border:0;
+}
+.table_glossary td {
+    color: #2b2b2b;
+    font-family: 'WhitneyMedium';
+    font-size: 20.7px;
+    line-height: 26px;
+    padding-bottom: 27px;
+}
+.table_glossary tr td:first-child{
+    width: 28%;
+    font-weight: bold;
+}
+.table_glossary tr td:last-child{
+    padding-left:15px;
+}
+.tab-content-glossary {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    background-image: url('../images/education/glossary/bg_glossary.png');
+    background-repeat:no-repeat;
+    background-position: 0 53px;
+}
+/*--------end glossary----------------*/
+/*--------video----------------*/
+
+.video1 .container {
+    width: 1270px;
+}
+.video2 .container {
+    width: 1010px;
+}
+.video3 .container {
+    width: 790px;
+}
+.video4 .container {
+    width: 790px;
+}
+.video5 .container {
+    width: 1090px;
+}
+.video8 .container {
+    width: 770px;
+}
+
+.socialTrading {
+    width: 61.7%;
+    margin: 0 auto;
+    float: none;
+}
+/*video 1*/
+.video1 iframe {
+    height: 455px;
+}
+.video1 {
+    padding-top: 58px;
+    background-image: url('../images/education/video/video1cercle.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.video1_left {
+    width: 50%;
+    float: left;
+    margin-bottom: 16px;
+}
+.video1_right {
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-top: 58px;
+}
+.video1_right h3 {
+    color: #181818;
+    font-size: 24px;
+    font-family: 'WhitneyBook';
+    margin-right: 19vw;
+}
+.video1_left img{
+    width:100%;
+    max-width:831px;
+}
+
+/*video 2*/
+.video2 {
+    background-image: url(../images/education/video/video2_2_bg.png),url(../images/education/video/video2_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 68px;
+    background-position: bottom right, top left;
+}
+.video2_right {
+    text-align: right;
+    margin-bottom: 22px;
+}
+.video2 iframe {
+    height: 474px;
+}
+.video2_right img {
+    width: 100%;
+    max-width: 1016px;
+}
+
+/*video 3*/
+.video3 {
+    background-color: #1b1b1b;
+    background-image: url('../images/education/video/video3_2_bg.png'), url('../images/education/video/video3_bg.png');
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    padding-top:118px;
+    padding-bottom: 40px;
+}
+.video3 iframe{
+    height:850px;
+}
+.video3_right {
+    margin-bottom: 25px;
+}
+.video3_right img{
+    width:100%;
+    max-width:1014px;
+}
+
+/*video4*/
+
+.video4 {
+    background-image: url('../images/education/video/video4_bg.png');
+    background-repeat: no-repeat;
+    padding-top: 87px;
+    padding-bottom: 21px;
+}
+.video4 iframe {
+    height: 910px;
+}
+.video4_right {
+    text-align: right;
+    margin-bottom: 22px;
+}
+.video4_right img{
+    width:100%;
+    max-width:1028px;
+}
+
+/*video5*/
+.video5 {
+    padding-top: 72px;
+    background-image: url('../images/education/video/video5_bg.png');
+    background-repeat: no-repeat;
+}
+
+.video5_left {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.video5_left img{
+    width:100%;
+    max-width:831px;
+}
+.video5 iframe {
+    height: 100vh;
+}
+
+/*.video6*/
+.video6 {
+    background-color: #131313;
+    background-image: url('../images/education/video/video6_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 95px;
+    padding-bottom: 38px;
+}
+.video6_left {
+    margin-top: 19px;
+}
+.video6_left img{
+    width:100%;
+    max-width:989px;
+}
+.video6 iframe {
+    height: 454px;
+}
+.video6_block_left {
+    width: 50%;
+    float: left;
+    padding-left: 23.5vw;
+}
+.video6_block_right {
+    width: 50%;
+    float:right;
+}
+
+
+/*video7*/
+.video7 {
+    background-color: #1f1f1f;
+    background-image: url('../images/education/video/video7_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 94px;
+}
+.video7_center{
+    text-align:center;
+}
+.video7 iframe {
+    width: 260px;
+    height: 500px;
+}
+.video7_left{
+    position:relative;
+}
+.video7_left img {
+    position: absolute;
+    top: 20px;
+    left: -103px;
+}
+
+/*video8*/
+
+.video8 {
+    background-image: url('../images/education/video/video8_bg.png');
+    padding-top: 70px;
+}
+.video8 iframe {
+    height: 798px;
+}
+.video8_left {
+    margin-bottom: 22px;
+}
+.video8_left img{
+    width:100%;
+    max-width:1016px;
+}
+/*--------end video----------------*/
+/*--------ebook----------------*/
+.book1_left {
+    float: left;
+    width: 50%;
+    margin-top: 7px;
+}
+.book1_right {
+    float: right;
+    width: 50%;
+    color: #181818;
+    margin-bottom: 44px;
+    padding-left: 15px;
+}
+.book1_left img{
+    width:100%;
+    max-width:831px;
+}
+#ebooks p,
+#ebooks ul {
+    font-size: 16px;
+    font-family: 'WhitneyBook';
+    line-height: 26px;
+    color: #131313;
+    padding-left: 15px;
+}
+.book1 {
+    padding-top: 51px;
+}
+.book1_right p{
+    max-width:500%;
+}
+.book1 {
+    background-image: url('../images/education/ebooks/ebook1_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 23px;
+}
+.book2 {
+    background-color: #d3d3d3;
+    background-image: url('../images/education/ebooks/ebook2_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 85px;
+    padding-top: 80px;
+}
+.book2_left {
+    float: left;
+    width: 50%;
+    padding-top: 32px;
+}
+.book2_right {
+    float: right;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.book2_right img{
+    width:100%;
+    max-width:1016px;
+}
+.book2_left p {
+    text-align: right;
+    max-width: 500px;
+    margin-left: 16vw;
+}
+.book3 {
+    background-color: #bababa;
+    background-image: url('../images/education/ebooks/ebook3_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.book3_left {
+    float: left;
+    width: 63%;
+    margin-bottom: 52px;
+}
+.book3_right {
+    float: right;
+    width: 37%;
+}
+.book3_left img{
+    width:100%;
+    max-width:1125px;
+}
+.book3_right p {
+    max-width: 330px;
+}
+.book4 {
+    background-image: url('../images/education/ebooks/ebook4_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.book4_left img{
+    width:100%;
+    max-width:831px;
+}
+.book4_left {
+    float: left;
+    width: 50%;
+    margin-bottom: 45px;
+}
+.book4_right{
+    float:right;
+    width:50%;
+}
+.book4_right p {
+    color: #1b1b1b;
+    max-width: 510px;
+    margin-top: 51px;
+}
+/*--------end ebook----------------*/

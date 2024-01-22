@@ -1,0 +1,82 @@
+-﻿/*i will need add or change style for footer*/
+-/*This code style for crossbrouser*/
+
+/*-------------------------Index.html-------------------------*/
+/*isSafari*/
+body.isSafari .blockCenter a,
+body.isSafari .lineY,
+body.isSafari .sub_submit .lineY{
+    font-family:WhitneyBook;
+}
+
+body.isSafari .sub_submit .lineY{
+    font-size:16px;
+}
+body.isSafari #cube{
+    -webkit-transform-origin:50% 50% 0;
+            transform-origin:50% 50% 0;
+}
+body.isSafari #border {
+    display: none;
+}
+/*end isSafari*/
+
+/*isIE*/
+body.isIE .animLeft,
+body.isIE .animRight,
+body.isIE #wrapper,
+body.isIE .sub_bullHeader,
+body.isIE .scrollBlock,
+body.isIE .ludi_block,
+body.isIE .sub_ves,
+body.isIE .sub_group1,
+body.isIE .sub_group2,
+body.isEdge .animLeft,
+body.isEdge .animRight,
+body.isEdge #wrapper,
+body.isEdge .sub_bullHeader,
+body.isEdge .scrollBlock,
+body.isEdge .ludi_block,
+body.isEdge .sub_ves,
+body.isEdge .sub_group1,
+body.isEdge .sub_group2{
+    display:none!important;
+}
+body.isIE .navbar-default .navbar-nav > li > a:hover,
+body.isIE .navbar-default .navbar-nav > li > a:focus,
+body.isIE .navbar-default .navbar-nav > li > a.active,
+body.isEdge .navbar-default .navbar-nav > li > a:hover,
+body.isEdge .navbar-default .navbar-nav > li > a:focus,
+body.isEdge .navbar-default .navbar-nav > li > a.active{
+    background:none!important;
+    color:#efd984;
+    -webkit-text-fill-color:#efd984;
+}
+body.isIE .header_index,
+body.isEdge .header_index {
+    background-image: url('../images/_ie_bg_header.jpg');
+}
+body.isIE .sub_oneAnimationBlock,
+body.isEdge .sub_oneAnimationBlock{
+    position:relative;
+}
+body.isIE .oneRight ul,
+body.isEdge .oneRight ul{
+    position:relative;
+    top:0;
+}
+body.isIE .oneAnimationBlock,
+body.isEdge .oneAnimationBlock{
+    margin-top:156px;
+}
+body.isIE .slider,
+body.isEdge .slider{
+    margin-top:78px;
+}
+body.isIE .ves,
+body.isEdge .ves {
+    background-image: url('../images/_ie_ves_0_1.png');
+    background-position:0;
+}
+/*end isIE*/
+/*-------------------------End Index.html-------------------------*/

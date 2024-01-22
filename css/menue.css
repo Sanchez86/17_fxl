@@ -1,0 +1,464 @@
+.nav li .active + span {
+    font-size: 0;
+}
+/*gamburger*/
+
+.navbar-default .navbar-toggle{
+	margin-top: 28px;
+    background-color:rgba(0, 0, 0, 0.00);
+	border:0;
+}
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+      background-color:rgba(0, 0, 0, 0.00);  
+    }
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #9d9d9d;
+    width: 33px;
+    height: 2px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.navbar-default .navbar-toggle span:last-child{
+    width: 22px;
+    float: right;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 5px;
+}
+ .navbar-default .navbar-toggle:hover .icon-bar,
+ .navbar-default .navbar-toggle.active .icon-bar{
+	background-color: #efd984;
+    width: 33px;
+}
+ .navbar-default .navbar-toggle.no-active .icon-bar{
+	background-color: #9d9d9d;
+}
+ .navbar-default .navbar-toggle.no-active span:last-child{
+    width: 22px;
+}
+/*end gamburger*/
+.navbar{
+	margin-bottom:0;
+}
+.navbar-brand {
+    height:auto;
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+.navbar-default {
+    background-color:rgba(0, 0, 0, 0.00);
+    border: 0;
+    border-bottom: 1px solid #303030;
+}
+.navbar-default .navbar-nav > li > a{
+    font-family: 'WhitneyBook';
+    color: #bbbaba;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 1.4vw;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus,
+ .navbar-default .navbar-nav > li > a.active{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efd984+0,efd984+38,a38042+100 */
+background: #efd984; /* Old browsers */ /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #efd984 0%,#efd984 38%,#a38042 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 ); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+.nav > li{text-align:center;}
+.nav li span {
+    display: block;
+    height: 5px;
+    background: #b96161;
+    width: 0%;
+    border-radius: 10px;
+    background: inherit;
+    -webkit-transition: width 0.5s;
+    transition:width 0.5s;
+}
+.nav li .active + span/*,
+.nav li:hover span*/{
+    width:100%;
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 38%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+}
+.navBarRight {
+    margin-right: -16.9vw;
+}
+.navbar-default .navBarRight li a{
+    color:#dfdcdc;
+    font-size:14px;
+    font-family: 'Roboto-Light';
+    border: 1px solid rgba(220, 185, 102, 0.00);
+    border-radius: 20px;
+    -webkit-transition: all 0.5s;
+    transition:all 0.5s;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline:0;
+}
+    .navbar-default .navBarRight li a:hover {
+        border: 1px solid #dcb966;
+        background: inherit;
+        -webkit-text-fill-color: #dfdcdc;
+        color:#dfdcdc;
+        
+    }
+
+/*.breadcrumbs*/
+.breadcrumbs li{
+    display:inline-block;
+    background-image: url('../images/marketing/breadcrumbs_right.png');
+    background-repeat:no-repeat;
+    background-position:right center;
+    padding-right: 22px;
+    padding-left: 8px;
+}
+.breadcrumbs li:last-child{
+    background:none;
+    padding-right: 0;
+    padding-left: 8px;
+}
+.breadcrumbs li a {
+    color: #c2c2c2;
+    font-family: 'WhitneyMedium';
+    font-size: 13px;
+        
+}
+.breadcrumbs li a:hover,
+.breadcrumbs li a.active{
+    background: #efd984;
+    background: -webkit-linear-gradient(left, #efd984 0%,#efd984 90%,#a38042 100%);
+    background: linear-gradient(to right, #efd984 0%,#efd984 90%,#a38042 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: WhitneyMedium;
+}
+.breadcrumbs{
+    padding-top: 13px;
+    padding-bottom: 19px;
+}
+/* end breadcrumbs*/
+/*dropdown for tools*/
+.toolsDropdown {
+    position: relative;
+}
+
+.toolsDropdown div.active {
+    display: block;
+}
+
+.toolsDropdown div {
+    display: none;
+    position: absolute;
+    width: 100%;
+    min-width: 170px;
+    text-align: left;
+    background-color: #fbfbfb;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+
+    .toolsDropdown div a {
+        font-family: 'WhitneyBook';
+        color: #111111 !important;
+        font-size: 14px;
+        line-height: 30px;
+        width: 100%;
+        display: inline-block;
+        transition: background-color 0.5s;
+        text-align: left;
+        padding-left: 18px;
+    }
+
+.toolsDropdown li:last-child {
+    margin: 0 !important;
+}
+
+    .toolsDropdown div a:hover {
+        background-color: #d8d8d8;
+        color: #000000 !important;
+    }
+
+.noActive {
+    background-image: url(../images/open_account/caretkaWhite.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+/*end dropdown for tools*/
+/*menue login*/
+.menue_login {
+    position: relative;
+    margin-right: -15.9vw;
+    margin-top: 26px;
+}
+
+.menue_login_dropdown {
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+
+.menue_login li {
+    float: none;
+    color: #bbbaba;
+    font-size: 14px;
+    font-family: 'WhitneyBook';
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+    .menue_login li p a {
+        color: #ddbb69
+    }
+
+.menue_login_dropdown {
+    display: none;
+}
+
+.menue_login_dropdown.active {
+    display: block;
+}
+
+.menue_login span {
+    width: auto;
+}
+
+.menue_login p {
+    text-align: center;
+}
+
+.menue_login .welcom span {
+    background-image: url('../images/open_account/caretkaWhite.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 14px;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+    color: #ddbb69;
+    cursor: pointer;
+}
+
+.menue_login_dropdown {
+    background-color: #fff;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+
+.menue_login_dropdown a {
+    color: #111111;
+    font-size: 12px;
+    font-family: 'Roboto-Light';
+    line-height: 21px;
+    width: 100%;
+    display: inline-block;
+    transition: background-color 0.5s;
+    padding: 0 9px;
+}
+
+.menue_login_dropdown a:hover {
+    background-color: #ededed;
+    color: #000000 !important;
+}
+
+.menue_login .menue_login_dropdown li {
+    margin-bottom: 0;
+}
+/*end menue login*/
+/*media queris*/
+@media only screen and (max-width: 1800px){
+    .navBarRight,
+    .menue_login {
+        margin-right: -13.5vw;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .navBarRight,
+    .menue_login {
+        margin-right: -8vw;
+    }
+    .navBarLeft li:last-child{
+        margin-right: 40px;
+    }
+    .noActive {
+        background-position: right center;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .navBarRight,
+    .menue_login {
+        margin-right: 0vw;
+    }
+    .navbar-default .navBarRight li a {
+        padding-left: 1.4vw;
+        padding-right: 1.4vw;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;    
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .navbar-default .navbar-nav > li > a{
+        margin-top: 35px;
+    }
+    .noActive {
+        background-size: 12%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .navbar-default .navbar-nav > li > a {
+        padding-left: 0.9vw;
+        padding-right: 0.89vw;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .navbar-default .navbar-nav > li > a {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+@media only screen and (max-width: 992px){
+    .navbar-default .navbar-nav > li > a {
+        padding: 0 0.8vw;
+        margin-top: 35px;
+    }
+    .navbar-brand > img {
+        width:100%;
+    }
+    .navbar-header {
+        width:140px;
+    }
+    .navBarLeft li:last-child {
+        margin-right: 0px;
+    }
+    .navbar .container{
+        width:820px;
+    }
+}
+
+
+@media only screen and (max-width: 899px) {
+    .menue_login {
+        border-bottom: 1px solid #303030;
+    }
+    .navBarRight, .menue_login {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .menue_login_dropdown {
+        width: 100%;
+        z-index: 10;
+    }
+    .menue_login li {
+        text-align: center;
+    }
+    .menue_login_dropdown a {
+        line-height: 24px;
+    }
+    .noActive {
+        background-size: inherit;
+        background-position: right calc(50% - 30px) center;
+    }
+    .toolsDropdown div {
+        z-index:100;
+    }
+    .toolsDropdown div a{
+        text-align:center;
+        line-height:32px;
+    }
+    .navbar-default{
+        position: absolute;
+        width: 100%;
+    }
+    .navbar .container {
+        width: 750px;
+    }
+    .navbar-default .navbar-toggle{
+        margin-top: 20px;
+        margin-right: -20px;
+    }
+    .navbar-header,
+    .navbar-collapse{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .nav li .active + span {
+       width: 120px;
+       margin: 0 auto;
+    }    
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-default .navBarRight li a,
+    .navbar-default .navBarRight li a:hover {
+        border:0;
+    }
+    .navBarRight{
+        margin: 7.5px -15px;
+        border-bottom: 1px solid #303030;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.952941);
+        position: inherit;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .navbar-collapse.in {
+        overflow-y:visible;
+    }
+    /*.toolsDropdown div {
+        padding: 0px 0px;
+    }
+    .toolsDropdown div a {
+        line-height: 24px;
+        font-size: 13px;
+    }*/
+    .navbar .container {
+        width: 100%;
+    }
+     .navbar-header,
+    .navbar-collapse{
+        margin-left: -15px!important;
+        margin-right: -15px!important;
+    }
+    .navbar-collapse{
+        position: absolute;
+    }
+
+    .navbar-default .navBarRight li a:hover{
+        background: #efd984;
+        background: -webkit-linear-gradient(left, #efd984 0%,#efd984 38%,#a38042 100%);
+        background: linear-gradient(to right, #efd984 0%,#efd984 38%,#a38042 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd984', endColorstr='#a38042',GradientType=1 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+     .navbar-default .navbar-nav > li > a{
+        margin-top: 10px;
+    }
+}
