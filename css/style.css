@@ -287,7 +287,7 @@ header{
     padding-top: 92px;
 }
 .header_index{
-    background-image: url('../images/_FXL0.jpg');
+    background-image: url('../images/0_FXL0.jpg');
     height: 60vw;
     position: relative;
     background-repeat: no-repeat;
@@ -1062,11 +1062,11 @@ header{
 }
 .animLeft {
     left: 0;
-    background-image: url('../images/_FXL1_left.jpg');
+    background-image: url('../images/00000_FXL1_left.jpg');
 }
 .animRight {
     right: 0;
-    background-image: url('../images/_FXL1_right.jpg');
+    background-image: url('../images/0_FXL1_right.jpg');
     background-position: 17px 0;
 }
 .blockCenter {
