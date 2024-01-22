@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open account</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <p>Username:</p>
+                        <input type="text" placeholder="User Name" required />
+                        <p>Password:</p>
+                        <input type="password" placeholder="Password" required />
+                        <div>
+                            <input type="submit" value="Login" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal -->
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menue.css" rel="stylesheet" />
+    <link href="css/crossbrowse.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+
+    <link href="css/about_us.css" rel="stylesheet" />
+    <link href="css/account_types.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+    <link href="css/marketing.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/education.css" rel="stylesheet" />
+    <link href="css/faq.css" rel="stylesheet" />
+    <link href="css/legal.css" rel="stylesheet" />
+    <link href="css/open_account.css" rel="stylesheet" />
+    <link href="css/trade.css" rel="stylesheet" />
+    <link href="css/tools_cfds.css" rel="stylesheet" />
+    <link href="css/tools_strategies.css" rel="stylesheet" />
+
+    <link href="css/media.css" rel="stylesheet" />
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/validation.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="js/jquery.lazylinepainter-1.7.0.min.js"></script>
+    <script src="js/html5lightbox.js"></script>
+    <!-- button up -->
+    <div id="top">
+        <i class="fa fa-chevron-up">
+            <span class="up">UP</span>
+        </i>
+    </div>
+    <!-- menu -->
+    <div class="navbar navbar-default navbar-static-top wow flipInX" data-wow-delay="0.2s" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right navBarRight">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navBarLeft">
+                    <li><a href="index.html">Home</a><span></span></li>
+                    <li><a href="#about">Trading</a><span></span></li>
+                    <li><a href="#contact">Account types</a><span></span></li>
+                    <li><a href="education.html">Education</a><span></span></li>
+                    <li><a href="#contact">FAQ</a><span></span></li>
+                    <li><a href="contact.html">Contact us</a><span></span></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- end menu -->
+     <header class="header_marketing">
+
+    </header>
+    <div class="wrap_open_account">
+        <div class="sub_logo_open_account">
+            <img src="images/open_account/logo_open_account.png" alt="logo_open_account" />
+        </div>
+        <div class="sub_form">
+            <div class="container">
+                <div class="form-wrap">
+
+                    <div class="register_form">
+
+                        <form id="reg_form" action="" method="post">
+                            <input type="hidden" name="tradersoft_submit" value="registration">    <div class="form-blocks">
+                                <div class="form-row field-registration-fname">
+
+                                    <input type="text" id="registration-fname" class="form-input" name="fname" placeholder="First name">
+                                    <small class="error error-text-js"></small>
+                                </div>        <div class="form-row field-registration-lname">
+
+                                    <input type="text" id="registration-lname" class="form-input" name="lname" placeholder="Last name">
+                                    <small class="error error-text-js"></small>
+                                </div>        <div class="form-row field-registration-country">
+
+                                    <select id="registration-country" class="select_country_language" name="country" placeholder="Country">
+                                        <option value="AX" data-target="+358">Aland Islands</option>
+                                        <option value="AL" data-target="+355">Albania</option>
+                                        <option value="DZ" data-target="+213">Algeria</option>
+                                        <option value="AS" data-target="+684">American Samoa</option>
+                                        <option value="AD" data-target="+376">Andorra</option>
+                                        <option value="AO" data-target="+244">Angola</option>
+                                        <option value="AI" data-target="+1264">Anguilla</option>
+                                        <option value="AQ" data-target="+672">Antarctica</option>
+                                        <option value="AG" data-target="+1268">Antigua and Barbuda</option>
+                                        <option value="AR" data-target="+54">Argentina</option>
+                                        <option value="AM" data-target="+374">Armenia</option>
+                                        <option value="AW" data-target="+297">Aruba</option>
+                                        <option value="AU" data-target="+61">Australia</option>
+                                        <option value="AT" data-target="+43">Austria</option>
+                                        <option value="AZ" data-target="+994">Azerbaijan</option>
+                                        <option value="BS" data-target="+1">The Bahamas</option>
+                                        <option value="BH" data-target="+973">Bahrain</option>
+                                        <option value="BB" data-target="+1">Barbados</option>
+                                        <option value="BY" data-target="+375">Belarus</option>
+                                        <option value="BE" data-target="+32">Belgium</option>
+                                        <option value="BZ" data-target="+501">Belize</option>
+                                        <option value="BJ" data-target="+229">Benin</option>
+                                        <option value="BM" data-target="+1">Bermuda</option>
+                                        <option value="BT" data-target="+975">Bhutan</option>
+                                        <option value="BO" data-target="+591">Bolivia</option>
+                                        <option value="BQ" data-target="+599">Bonaire, Sint Eustatius and Saba</option>
+                                        <option value="BA" data-target="+387">Bosnia and Herzegovina</option>
+                                        <option value="BW" data-target="+267">Botswana</option>
+                                        <option value="BV" data-target="+74">Bouvet Island</option>
+                                        <option value="BR" data-target="+55">Brazil</option>
+                                        <option value="IO" data-target="+86">British Indian Ocean Territory</option>
+                                        <option value="BN" data-target="+673">Brunei</option>
+                                        <option value="BG" data-target="+359">Bulgaria</option>
+                                        <option value="BF" data-target="+226">Burkina Faso</option>
+                                        <option value="BI" data-target="+257">Burundi</option>
+                                        <option value="KH" data-target="+855">Cambodia</option>
+                                        <option value="CM" data-target="+237">Cameroon</option>
+                                        <option value="CV" data-target="+238">Cape Verde</option>
+                                        <option value="KY" data-target="+1">Cayman Islands</option>
+                                        <option value="CF" data-target="+236">Central African Republic</option>
+                                        <option value="TD" data-target="+235">Chad</option>
+                                        <option value="CL" data-target="+56">Chile</option>
+                                        <option value="CX" data-target="+61">Christmas Island</option>
+                                        <option value="CC" data-target="+61">Cocos (Keeling) Islands</option>
+                                        <option value="CO" data-target="+57">Colombia</option>
+                                        <option value="KM" data-target="+269">Comoros</option>
+                                        <option value="CG" data-target="+242">Congo</option>
+                                        <option value="CD" data-target="+243">Democratic Republic of the Congo</option>
+                                        <option value="CK" data-target="+682">Cook Islands</option>
+                                        <option value="CR" data-target="+506">Costa Rica</option>
+                                        <option value="CI" data-target="+225">Cote d'Ivoire</option>
+                                        <option value="HR" data-target="+385">Croatia</option>
+                                        <option value="CU" data-target="+53">Cuba</option>
+                                        <option value="CW" data-target="+5999">Curacao</option>
+                                        <option value="CY" data-target="+357">Cyprus</option>
+                                        <option value="CZ" data-target="+420">Czech Republic</option>
+                                        <option value="DK" data-target="+45">Denmark</option>
+                                        <option value="DJ" data-target="+253">Djibouti</option>
+                                        <option value="DM" data-target="+1767">Dominica</option>
+                                        <option value="DO" data-target="+1">Dominican Republic</option>
+                                        <option value="EC" data-target="+593">Ecuador</option>
+                                        <option value="EG" data-target="+20">Egypt</option>
+                                        <option value="SV" data-target="+503">El Salvador</option>
+                                        <option value="GQ" data-target="+240">Equatorial Guinea</option>
+                                        <option value="ER" data-target="+291">Eritrea</option>
+                                        <option value="EE" data-target="+372">Estonia</option>
+                                        <option value="ET" data-target="+251">Ethiopia</option>
+                                        <option value="FK" data-target="+500">Falkland Islands</option>
+                                        <option value="FO" data-target="+298">Faeroe Islands</option>
+                                        <option value="FJ" data-target="+679">Fiji</option>
+                                        <option value="FI" data-target="+358">Finland</option>
+                                        <option value="FR" data-target="+33">France</option>
+                                        <option value="GF" data-target="+594">French Guiana</option>
+                                        <option value="PF" data-target="+689">French Polynesia</option>
+                                        <option value="TF" data-target="+33">French Southern Territories</option>
+                                        <option value="GA" data-target="+241">Gabon</option>
+                                        <option value="GM" data-target="+220">The Gambia</option>
+                                        <option value="GE" data-target="+995">Georgia</option>
+                                        <option value="DE" data-target="+49">Germany</option>
+                                        <option value="GH" data-target="+233">Ghana</option>
+                                        <option value="GI" data-target="+350">Gibraltar</option>
+                                        <option value="GR" data-target="+30">Greece</option>
+                                        <option value="GL" data-target="+299">Greenland</option>
+                                        <option value="GD" data-target="+1">Grenada</option>
+                                        <option value="GP" data-target="+590">Guadeloupe</option>
+                                        <option value="GU" data-target="+1671">Guam</option>
+                                        <option value="GT" data-target="+502">Guatemala</option>
+                                        <option value="GG" data-target="+44">Guernsey</option>
+                                        <option value="GN" data-target="+224">Guinea</option>
+                                        <option value="GW" data-target="+245">Guinea-Bissau</option>
+                                        <option value="GY" data-target="+592">Guyana</option>
+                                        <option value="HT" data-target="+509">Haiti</option>
+                                        <option value="HM" data-target="+334">Heard Island and McDonald Islands</option>
+                                        <option value="VA" data-target="+396">Vatican City</option>
+                                        <option value="HN" data-target="+504">Honduras</option>
+                                        <option value="HK" data-target="+852">Hong Kong</option>
+                                        <option value="HU" data-target="+36">Hungary</option>
+                                        <option value="IS" data-target="+354">Iceland</option>
+                                        <option value="ID" data-target="+62">Indonesia</option>
+                                        <option value="IR" data-target="+98">Iran</option>
+                                        <option value="IQ" data-target="+964">Iraq</option>
+                                        <option value="IE" data-target="+353">Ireland</option>
+                                        <option value="IM" data-target="+44">Isle of Man</option>
+                                        <option value="IT" data-target="+39">Italy</option>
+                                        <option value="JM" data-target="+1">Jamaica</option>
+                                        <option value="JP" data-target="+81">Japan</option>
+                                        <option value="JE" data-target="+44">Jersey</option>
+                                        <option value="JO" data-target="+962">Jordan</option>
+                                        <option value="KZ" data-target="+7">Kazakhstan</option>
+                                        <option value="KE" data-target="+254">Kenya</option>
+                                        <option value="KI" data-target="+686">Kiribati</option>
+                                        <option value="KR" data-target="+82">South Korea</option>
+                                        <option value="KW" data-target="+965">Kuwait</option>
+                                        <option value="KG" data-target="+996">Kyrgyzstan</option>
+                                        <option value="LA" data-target="+856">Laos</option>
+                                        <option value="LV" data-target="+371">Latvia</option>
+                                        <option value="LB" data-target="+961">Lebanon</option>
+                                        <option value="LS" data-target="+266">Lesotho</option>
+                                        <option value="LR" data-target="+231">Liberia</option>
+                                        <option value="LY" data-target="+218">LIBYA</option>
+                                        <option value="LI" data-target="+423">Liechtenstein</option>
+                                        <option value="LT" data-target="+370">Lithuania</option>
+                                        <option value="LU" data-target="+352">Luxembourg</option>
+                                        <option value="MO" data-target="+853">Macau</option>
+                                        <option value="MK" data-target="+389">Former Yugoslav Republic of Macedonia</option>
+                                        <option value="MG" data-target="+261">Madagascar</option>
+                                        <option value="MW" data-target="+265">Malawi</option>
+                                        <option value="MY" data-target="+60">Malaysia</option>
+                                        <option value="MV" data-target="+960">Maldives</option>
+                                        <option value="ML" data-target="+223">Mali</option>
+                                        <option value="MT" data-target="+356">Malta</option>
+                                        <option value="MH" data-target="+692">Marshall Islands</option>
+                                        <option value="MQ" data-target="+596">Martinique</option>
+                                        <option value="MR" data-target="+222">Mauritania</option>
+                                        <option value="MU" data-target="+230">Mauritius</option>
+                                        <option value="YT" data-target="+269">Mayotte</option>
+                                        <option value="MX" data-target="+52">Mexico</option>
+                                        <option value="FM" data-target="+691">Micronesia</option>
+                                        <option value="MD" data-target="+373">Moldova</option>
+                                        <option value="MC" data-target="+377">Monaco</option>
+                                        <option value="MN" data-target="+976">Mongolia</option>
+                                        <option value="ME" data-target="+382">Montenegro</option>
+                                        <option value="MS" data-target="+1664">Montserrat</option>
+                                        <option value="MA" data-target="+212">Morocco</option>
+                                        <option value="MZ" data-target="+258">Mozambique</option>
+                                        <option value="MM" data-target="+95">Myanmar</option>
+                                        <option value="NA" data-target="+264">Namibia</option>
+                                        <option value="NR" data-target="+674">Nauru</option>
+                                        <option value="NP" data-target="+977">Nepal</option>
+                                        <option value="NL" data-target="+31">Netherlands</option>
+                                        <option value="NC" data-target="+687">New Caledonia</option>
+                                        <option value="NZ" data-target="+64">New Zealand</option>
+                                        <option value="NI" data-target="+505">Nicaragua</option>
+                                        <option value="NU" data-target="+683">Niue</option>
+                                        <option value="NF" data-target="+672">Norfolk Island</option>
+                                        <option value="MP" data-target="+1670">Northern Marianas</option>
+                                        <option value="NO" data-target="+47">Norway</option>
+                                        <option value="OM" data-target="+968">Oman</option>
+                                        <option value="PW" data-target="+680">Palau</option>
+                                        <option value="PS" data-target="+970">Palestine Territory</option>
+                                        <option value="PA" data-target="+507">Panama</option>
+                                        <option value="PG" data-target="+675">Papua New Guinea</option>
+                                        <option value="PY" data-target="+595">Paraguay</option>
+                                        <option value="PE" data-target="+51">Peru</option>
+                                        <option value="PH" data-target="+63">Philippines</option>
+                                        <option value="PN" data-target="+612">Pitcairn Islands</option>
+                                        <option value="PL" data-target="+48">Poland</option>
+                                        <option value="PT" data-target="+351">Portugal</option>
+                                        <option value="PR" data-target="+1">Puerto Rico</option>
+                                        <option value="QA" data-target="+974">Qatar</option>
+                                        <option value="RE" data-target="+262">Réunion</option>
+                                        <option value="RO" data-target="+40">Romania</option>
+                                        <option value="RU" data-target="+7">Russia</option>
+                                        <option value="RW" data-target="+250">Rwanda</option>
+                                        <option value="BL" data-target="+590">Saint Bartelemy</option>
+                                        <option value="SH" data-target="+290">Saint Helena, Ascension and Tristan Da Cunha</option>
+                                        <option value="KN" data-target="+1869">Saint Kitts and Nevis</option>
+                                        <option value="LC" data-target="+1758">Saint Lucia</option>
+                                        <option value="MF" data-target="+590">Saint Martin (French Part)</option>
+                                        <option value="PM" data-target="+508">Saint Pierre and Miquelon</option>
+                                        <option value="VC" data-target="+1784">Saint Vincent and the Grenadines</option>
+                                        <option value="WS" data-target="+685">Samoa</option>
+                                        <option value="SM" data-target="+378">San Marino</option>
+                                        <option value="ST" data-target="+239">São Tomé and Príncipe</option>
+                                        <option value="SA" data-target="+966">Saudi Arabia</option>
+                                        <option value="SN" data-target="+221">Senegal</option>
+                                        <option value="RS" data-target="+381">Serbia</option>
+                                        <option value="SC" data-target="+248">Seychelles</option>
+                                        <option value="SL" data-target="+232">Sierra Leone</option>
+                                        <option value="SG" data-target="+65">Singapore</option>
+                                        <option value="SX" data-target="+1721">Sint Maarten (Dutch Part)</option>
+                                        <option value="SK" data-target="+421">Slovakia</option>
+                                        <option value="SI" data-target="+386">Slovenia</option>
+                                        <option value="SB" data-target="+677">Solomon Islands</option>
+                                        <option value="SO" data-target="+252">Somalia</option>
+                                        <option value="ZA" data-target="+27">South Africa</option>
+                                        <option value="GS" data-target="+239">South Georgia and the South Sandwich Isl</option>
+                                        <option value="SS" data-target="+211">South Sudan</option>
+                                        <option value="ES" data-target="+34">Spain</option>
+                                        <option value="LK" data-target="+94">Sri Lanka</option>
+                                        <option value="SD" data-target="+249">Sudan</option>
+                                        <option value="SR" data-target="+597">Suriname</option>
+                                        <option value="SJ" data-target="+0">Svalbard and Jan Mayen</option>
+                                        <option value="SZ" data-target="+268">Swaziland</option>
+                                        <option value="SE" data-target="+46">Sweden</option>
+                                        <option value="CH" data-target="+41">Switzerland</option>
+                                        <option value="SY" data-target="+963">Syria</option>
+                                        <option value="TW" data-target="+886">Taiwan</option>
+                                        <option value="TJ" data-target="+992">Tajikistan</option>
+                                        <option value="TZ" data-target="+255">Tanzania</option>
+                                        <option value="TH" data-target="+66">Thailand</option>
+                                        <option value="TL" data-target="+670">East Timor</option>
+                                        <option value="TG" data-target="+228">Togo</option>
+                                        <option value="TK" data-target="+690">Tokelau</option>
+                                        <option value="TO" data-target="+676">Tonga</option>
+                                        <option value="TT" data-target="+1">Trinidad and Tobago</option>
+                                        <option value="TN" data-target="+216">Tunisia</option>
+                                        <option value="TR" data-target="+90">Turkey</option>
+                                        <option value="TM" data-target="+993">Turkmenistan</option>
+                                        <option value="TC" data-target="+1649">Turks and Caicos Islands</option>
+                                        <option value="TV" data-target="+688">Tuvalu</option>
+                                        <option value="UG" data-target="+256">Uganda</option>
+                                        <option value="UA" selected="" data-target="+380">Ukraine</option>
+                                        <option value="AE" data-target="+971">United Arab Emirates</option>
+                                        <option value="GB" data-target="+44">United Kingdom</option>
+                                        <option value="UM" data-target="+581">United States Minor Outlying Islands</option>
+                                        <option value="UY" data-target="+598">Uruguay</option>
+                                        <option value="UZ" data-target="+998">Uzbekistan</option>
+                                        <option value="VU" data-target="+678">Vanuatu</option>
+                                        <option value="VE" data-target="+58">Venezuela</option>
+                                        <option value="VN" data-target="+84">Vietnam</option>
+                                        <option value="VG" data-target="+1284">British Virgin Islands</option>
+                                        <option value="VI" data-target="+1340">US Virgin Islands</option>
+                                        <option value="WF" data-target="+681">Wallis and Futuna</option>
+                                        <option value="EH" data-target="+212">Western Sahara</option>
+                                        <option value="YE" data-target="+967">Yemen</option>
+                                    </select>
+                                    <small class="error error-text-js"></small>
+                                </div>        <div class="form-row form-row-phone">
+                                    <div class="phone-code field-registration-phonecode">
+
+                                        <input type="text" id="registration-phonecode" class="form-input" name="phoneCode" value="+380" placeholder="Phone Code">
+                                        <small class="error error-text-js"></small>
+                                    </div>            <div class="phone-number field-registration-phone">
+
+                                        <input type="text" id="registration-phone" class="form-input" name="phone" placeholder="Phone number">
+                                        <small class="error error-text-js"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-blocks">
+                                <div class="form-row field-registration-email">
+
+                                    <input type="text" id="registration-email" class="form-input" name="email" placeholder="Email address">
+                                    <small class="error error-text-js"></small>
+                                </div>        <div class="form-row field-registration-password">
+
+                                    <input type="password" id="registration-password" class="form-input" name="password" placeholder="Password">
+                                    <small class="error error-text-js"></small>
+                                    <div class="password-rules">
+                                        <ul>
+                                            <li>Use 5-15 characters</li>
+                                            <li>
+                                                You can use the next symbols:
+                                                <span>! " # $ % &amp; ' ( ) * + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ ` { | } ~</span>
+                                            </li>
+                                            <li>Combine letters (capital and lower case) with numbers</li>
+                                            <li>Avoid common passwords like 1234, "password", or your name</li>
+                                            <li>Don't use gap in password</li>
+                                        </ul>
+                                    </div>
+                                </div>        <div class="form-row field-registration-confirmpassword">
+
+                                    <input type="password" id="registration-confirmpassword" class="form-input" name="confirmPassword" placeholder="Re-enter password">
+                                    <small class="error error-text-js"></small>
+                                </div>        <div class="form-row checkbox-block field-registration-accept">
+
+                                    <div class="checkbox-wrap"><input type="hidden" name="accept" value="0"><input type="checkbox" id="registration-accept" class="checkbox" name="accept" value="1"><label for="registration-accept">I am over 18 years of age and I accept the <a href="http://capital88.com/about-us/legal/terms-and-conditions/">Terms &amp; Conditions</a></label></div>
+                                    <small class="error error-text-js"></small>
+                                </div>
+                            </div>
+                            <div class="center">
+                                <input type="submit" class="btn btn-orange btn-medium" value="Sign up">        <span>
+                                    Already have an account?            <a href="#" data-toggle="modal" class="oa" data-target="#log-in">Log In</a>
+                                </span>
+                            </div>
+                        </form>
+                        <!--
+                        <script type="text/javascript" src="/wp-content/plugins/tradersoft/templates/system/js/validation.js?v=3"></script>
+                        <script type="text/javascript" src="/wp-content/plugins/tradersoft/templates/system/js/activeForm.js?v=3"></script>
+                            -->
+                        <script type="text/javascript">
+                            jQuery(document).ready(function () {
+                                jQuery('#reg_form').activeForm([{ "id": "#registration-fname", "container": ".field-registration-fname", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.required(value, messages, { "message": "First name cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 2, "message": "First name minimum length must be 2" }); } }, { "id": "#registration-lname", "container": ".field-registration-lname", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.required(value, messages, { "message": "Last name cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 2, "message": "Last name minimum length must be 2" }); } }, { "id": "#registration-country", "container": ".field-registration-country", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.required(value, messages, { "message": "Country cannot be blank" }); } }, { "id": "#registration-phonecode", "container": ".field-registration-phonecode", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.minLength(value, messages, { "skipOnEmpty": 1, "min": 1, "message": "Phone Code minimum length must be 1" }); validation.maxLength(value, messages, { "max": 10, "message": "Phone Code maximum length must be 10" }); validation.match(value, messages, { "skipOnEmpty": 1, "pattern": /^\+?[*_\s\-\(\)\/\.]*\d+[*_0-9\s\-\(\)\/\.]*$/, "message": "Phone Code is not a valid param" }); } }, { "id": "#registration-phone", "container": ".field-registration-phone", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.required(value, messages, { "message": "Phone number cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 3, "message": "Phone number minimum length must be 3" }); validation.maxLength(value, messages, { "max": 20, "message": "Phone number maximum length must be 20" }); validation.match(value, messages, { "skipOnEmpty": 1, "pattern": /^[*_0-9\s\-\(\)\/\.]*\d+[*_0-9\s\-\(\)\/\.]*\d+[*_0-9\s\-\(\)\/\.]*\d+$/, "message": "Phone number is not a valid param" }); } }, { "id": "#registration-email", "container": ".field-registration-email", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.stripTags(attribute, value, messages, []); validation.required(value, messages, { "message": "Email address cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 5, "message": "Email address minimum length must be 5" }); validation.email(value, messages, { "skipOnEmpty": true, "pattern": /^[a-zA-Z0-9_\-.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+$/, "message": "Email address is not a valid email address" }); } }, { "id": "#registration-password", "container": ".field-registration-password", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.required(value, messages, { "message": "Password cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 5, "message": "Password minimum length must be 5" }); validation.maxLength(value, messages, { "max": 15, "message": "Password maximum length must be 15" }); validation.compare(value, messages, { "skipOnEmpty": 0, "operator": "==", "compareAttribute": "confirmPassword", "compareValue": null, "message": "Password must be equal to Re-enter password", "type": "string", "atribute": "password" }); } }, { "id": "#registration-confirmpassword", "container": ".field-registration-confirmpassword", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.required(value, messages, { "message": "Re-enter password cannot be blank" }); validation.minLength(value, messages, { "skipOnEmpty": 0, "min": 5, "message": "Re-enter password minimum length must be 5" }); validation.maxLength(value, messages, { "max": 15, "message": "Re-enter password maximum length must be 15" }); } }, { "id": "#registration-accept", "container": ".field-registration-accept", "error": ".error.error-text-js", "validate": function (attribute, value, messages) { validation.boolean(value, messages, { "value": true, "strict": false, "message": "You must read and agree to the above T&C" }); } }]);
+                            });
+                        </script>
+                    </div>
+
+                    <script>
+                        $(document).ready(function () {
+                            $('#registration-country').on('change', function () {
+                                var phoneCodeElem = $('#registration-phonecode');
+                                var phoneCode = $('option:selected', this).attr('data-target');
+                                if (phoneCode !== 'undefined' && phoneCodeElem[0] !== 'undefined') {
+                                    phoneCodeElem.val(phoneCode);
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="op_footer">
+                            <img src="images/open_account/oa_icon1.png" />
+                            <h3>100% Secure</h3>
+                            <p>
+                                We use of the same level of encryption technology as international banks and
+                                major online retailers to protect your funds and privacy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="op_footer">
+                            <img src="images/open_account/oa_icon2.png" />
+                            <h3>24 Support +442033183202</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footerLogo">
+                        <img src="images/footerLogo.png" alt="footerLogo" />
+                    </div>
+                    <div class="footerMenue footerMenueAbout">
+                        <ul>
+                            <li><a href="about_us.html" class="active">ABOUT</a></li>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="account_types.html">Account types</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="blog.html" class="active">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerMenue footerMenueTrader">
+                        <ul>
+                            <li><a href="#">Trader resources</a></li>
+                            <li><a href="#">Assets</a></li>
+                            <li><a href="#">Market research</a></li>
+                            <li><a href="#">Economic calendar</a></li>
+                            <li><a href="#">Trading signals</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerMenue footerMenueEducation">
+                        <ul>
+                            <li><a href="#">Trading signals</a></li>
+                            <li><a href="education.html">How to trade (what is CFD)</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="education.html">Glossary</a></li>
+                            <li><a href="education.html">Videos</a></li>
+                            <li><a href="education.html">Ebooks</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerMenue footerMenueMarketing">
+                        <ul>
+                            <li><a href="marketing.html">Marketing</a></li>
+                            <li><a href="#">Affiliate program</a></li>
+                            <li><a href="#">Introducing broker</a></li>
+                            <li><a href="#">Master Affiliate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tools_cfds</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <p>Username:</p>
+                        <input type="text" placeholder="User Name" required />
+                        <p>Password:</p>
+                        <input type="password" placeholder="Password" required />
+                        <div>
+                            <input type="submit" value="Login" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal -->
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menue.css" rel="stylesheet" />
+    <link href="css/crossbrowse.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+
+    <link href="css/about_us.css" rel="stylesheet" />
+    <link href="css/account_types.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+    <link href="css/marketing.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/education.css" rel="stylesheet" />
+    <link href="css/faq.css" rel="stylesheet" />
+    <link href="css/legal.css" rel="stylesheet" />
+    <link href="css/open_account.css" rel="stylesheet" />
+    <link href="css/trade.css" rel="stylesheet" />
+    <link href="css/tools_cfds.css" rel="stylesheet" />
+    <link href="css/tools_strategies.css" rel="stylesheet" />
+
+    <link href="css/media.css" rel="stylesheet" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="js/jquery.lazylinepainter-1.7.0.min.js"></script>
+    <script src="js/html5lightbox.js"></script>
+    <!-- button up -->
+    <div id="top">
+        <i class="fa fa-chevron-up">
+            <span class="up">UP</span>
+        </i>
+    </div>
+    <!-- menu -->
+    <div class="navbar navbar-default navbar-static-top wow flipInX" data-wow-delay="0.2s" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right navBarRight">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navBarLeft">
+                    <li><a href="index.html" class="active">Home</a><span></span></li>
+                    <li><a href="trade.html">Trading</a><span></span></li>
+                    <li><a href="account_types.html">Account types</a><span></span></li>
+                    <li><a href="education.html">Education</a><span></span></li>
+                    <li class="toolsDropdown">
+                        <a href="#" class="noActive">Tools</a><span></span>
+                        <div>
+                            <ul>
+                                <li><a href="#">What are CFD?</a></li>
+                                <li><a href="#">CFD Strategies</a></li>
+                                <li><a href="#">Assets index</a></li>
+                                <li><a href="#">Economic calendar</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="faq.html">FAQ</a><span></span></li>
+                    <li><a href="contact.html">Contact us</a><span></span></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- end menu -->
+    <header class="header_marketing">
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="marketing.html">Tools</a></li>
+                            <li><a href="marketing.html" class="active">Asset index</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap_cfds">
+        <div class="cfds1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cfds1_left_header">
+                            <img src="images/tools/cfds/cfds_header1.png" alt="cfds_header1" />
+                        </div>
+                        <div class="cfds1_left">
+                            <h2 class="hidden_h2">
+                                What are CFDs
+                            </h2>
+                            <p>
+                                CFD’s investors always face a huge
+                                risk of loss.
+                            </p>
+                            <h3>While using CFDs, you can get an access to the following assets:</h3>
+                            <ul>
+                                <li>Stocks;</li>
+                                <li>Commodities;</li>
+                                <li>Forex and indices positions;</li>
+                                <li>And many other.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cfds1_right">
+                            <h3>
+                                CFD – Contract for Difference
+                            </h3>
+                            <p>
+                                Contracts for difference (CFDs) give a trader an opportunity to take the advantage of a great selection of the various assets without purchasing them. This tool is primarily intended for independent traders and investors who don't possess enough savings for acquiring such positions. CFDs have established
+                                itself as a reliable and transparent investment instrument and became popular in the international arena.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="cfds1_icon">
+                                    <img src="images/tools/cfds/cfds1_icon1.png" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="cfds1_icon">
+                                    <img src="images/tools/cfds/cfds1_icon2.png" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="cfds1_icon">
+                                    <img src="images/tools/cfds/cfds1_icon3.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            The main concept of CFD trading is that you are getting a benefit from price fluctuations by investing in the prices’ difference. It involves a significant risk to lose due to price reduction by the end of a contract but provides you with a chance to gain a lot in case of the rise of an asset's value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div><!--end cfds1-->
+        <div class="cfds2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-4">
+                        <div class="cfds2_right">
+                            <h2 class="cfds2_right_header">
+                                How to Trade World’s Global Assets Online
+                            </h2>
+                            <p>
+                                If you are a novice trader, you may be still embarrassed hearing
+                                the term “CFD”. How to sign a contract? Do I need a broker? How will
+                                my profit be calculated? – Those questions are the most frequently
+                                asked at the beginning of such kind of trading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-pull-8">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="cfds2_icon">
+                                    <img src="images/tools/cfds/cfds2_icon1.png" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="cfds2_icon">
+                                    <img src="images/tools/cfds/cfds2_icon2.png" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="cfds2_icon">
+                                    <img src="images/tools/cfds/cfds2_icon3.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="cfds2_block2__p">
+                            To trade online on the asset price movement you should follow the underlying steps: 
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cfds2_staps">
+                            <div class="cfds2_stap">
+                                <img src="images/tools/cfds/cfds2_1.png" />
+                                <p>
+                                    Select the desired asset. It can be anything including currency pair, stock and so on
+                                </p>
+                            </div>
+                            <div class="cfds2_stap">
+                                <img src="images/tools/cfds/cfds2_2.png" />
+                                <p>
+                                    Think of a money amount you would like to infuse into this trade and about leverage’s relevance
+                                </p>
+                            </div>
+                            <div class="cfds2_stap">
+                                <img src="images/tools/cfds/cfds2_3.png" />
+                                <p>
+                                    Decide which financial asset  tends to grow in price in the nearest future and open a BUY position on it
+                                </p>
+                            </div>
+                            <div class="cfds2_stap">
+                                <img src="images/tools/cfds/cfds2_4.png" />
+                                <p>
+                                    End up the position when it seems to be fairly priced. For SELL trade repeat the same actions, only in reverse
+                                </p>
+                            </div>
+                            <div class="cfds2_stap">
+                                <img src="images/tools/cfds/cfds2_5.png" />
+                                <p>
+                                    Your loss or profit as a difference between the eventual and starting price is calculated constantly on each trade and will be added to or excluded from your personal account. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="cfds2_block4__p">
+                            CFD trading is highly effortless and easy to understand,
+                            so you don’t need to do anything else. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end cfds2-->
+        <div class="cfds3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-md-push-6">
+                        <div class="cfds3_right">
+                            <img src="images/tools/cfds/cfds_header2.png" alt="cfds_header2" />
+                            <h2 class="hidden_h2">
+                                What are CFDs
+                            </h2>
+                            <div class="cfds3_icons">
+                                <img src="images/tools/cfds/cfds3_icon1.png" />
+                                <img src="images/tools/cfds/cfds3_icon2.png" />
+                                <img src="images/tools/cfds/cfds3_icon3.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-md-pull-6">
+                        <div class="cfds3_left">
+                            <h2>
+                                Before joining us, find out the benefits you will gain after trying to trade
+                                on the FXLeader platform:
+                            </h2>
+                            <ul>
+                                <li>Access to more than 1000 assets as CFDs;</li>
+                                <li>You don’t need to have a big equity to start;</li>
+                                <li>Forget about purchasing assets; </li>
+                                <li>Use risk management tools to decrease the possibility of loss;</li>
+                                <li>Buy and sell in seconds – CFD trade is quick;</li>
+                                <li>Get additional profit from Forex using such an instrument;</li>
+                                <li>Use leverage to increase your investments size up to x200;</li>
+                                <li>Be free of charge. There are no fees, commissions or deductions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cfds4_left">
+                            <img src="images/tools/cfds/cfds_header3.png" alt="cfds_header3" />
+                            <h3>
+                                If you still have questions, register through the website and look into the <span>FXLeader education center.</span><br>
+                                The access to its materials is free for
+                                all signed up users.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cfds4_right">
+                            <p>
+                                You should protect yourself from unpredictable fluctuations of financial markets because such trading brings more chances to gain profit and more threats to lose money at the same time.<br>
+                                To eliminate or reduce jeopardize, traders turn to the methods of risk management. This practice assumes a deep analysis and requires a good knowledge of economics and politics. A professional risk manager is fully aware of the ongoing events in the industry.
+                            </p>
+                            <p>
+                                FXLeader provides customers with topical daily reports and news to keep them well informed of what is happening with the world economy. Besides, there are some integrated risk management tools using which you can:
+                            </p>
+                            <h3>
+                                Stop Loss
+                            </h3>
+                            <p>
+                                Use automatic closing of a risky position and save the time spent on monitoring. You can choose this option in the personal account’s “settings” tab.
+                            </p>
+                            <h3>
+                                Take Profit
+                            </h3>
+                            <p>
+                                Receive the expected revenue automatically: set your account on closing position after reaching the necessary difference.
+                            </p>
+                            <h3>
+                                Execution Type
+                            </h3>
+                            <p>
+                                Specify your own trade terms and the system will only select the trades suitable for you. If the market conditions don’t correspond to your requirements, the position would not be open. Get more trading freedom using our automatic algorithms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6  col-md-push-6">
+                        <div class="cfds5_right">
+                            <img src="images/tools/cfds/cfds_header4.png" alt="cfds_header4" />
+                        </div>
+                        <div class="cfds5_icons">
+                            <img src="images/tools/cfds/cfds5_icon1.png" />
+                            <img src="images/tools/cfds/cfds5_icon2.png" />
+                            <img src="images/tools/cfds/cfds5_icon3.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-6  col-md-pull-6">
+                        <div class="cfds5_left">
+                            <p>
+                                Lack of savings is not an obstacle on the way to successful CFD trading. Leverage option boosts your equity by engaging company’s money. FXLeader may increase your investment up to x200.
+                            </p>
+                            <p>
+                                Leverage represents a ratio or a percentage which resembles initial margin requirement. 1:20 means 5% and 1:50 = 2% respectively.
+                            </p>
+                            <p>
+                                Higher profits create greater risks. So be careful while applying for the leverage. This feature is recommended for experienced traders who have already become acquainted with essential risk management principles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--end cfds3 -4 -5-->
+        <div class="cfds6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cfds6_left">
+                            <img src="images/tools/cfds/cfds_header5.png" alt="cfds_header5" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cfds6_right">
+                            <p>
+                                This notion means the critical point of a fund's amount: if it is lower than margin level, the opened position will cease to exist automatically. In other words, it is a minimum capital required to trade without a risk of being withdrawn. This parameter is unique for every financial tool present on a platform and mentioned in an asset's description.
+                            </p>
+                            <p>
+                                It is closely linked to leveraged trade. Such open positions may be closed if you don’t deposit more money or call off a few of them. Before it happens, you will receive a notification with an advice on how to proceed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end cfds6-->
+        <div class="cfds7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="cfds7_right">
+                            <img src="images/tools/cfds/cfds_header6.png" alt="cfds_header6" />
+                        </div>
+                        <div class="cfds_book">
+                            <img src="images/tools/cfds/cfds_book.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-pull-6">
+                        <div class="cfds7_left">
+                            <p>
+                                FXLeader is now available on portable devices such as mobile phones and tablets.
+                                Stay tuned on-the-go and continue to trade even if you are away from your working PC.
+                            </p>
+                            <h3>
+                                Advantages of the mobile platform: 
+                            </h3>
+                            <ul>
+                                <li>React quickly to market changes;</li>
+                                <li>Instantly monitor the condition of your open trades;</li>
+                                <li>Read notifications from the service wherever you are;</li>
+                                <li>Get a profit from events in different time zones;</li>
+                                <li>Keep your assets and equity at hand.</li>
+                            </ul>
+                            <p class="cfds7_left__p">
+                                Flexibility and independence are the most substantial values of 21st-century people. CFD mobile platform intended for traders who are never settled down but demand a full control of their investments.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cfds7_left2">
+                            <img src="images/tools/cfds/cfds_header7.png" alt="cfds_header7" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="cfds7_left__p2">
+                            Even though the platform is user-friendly and accessible to both novice and professional traders, FXLeadere has arranged an educational center for those who would like to master CFD trading and learn all the peculiarities of this process at short notice. You are welcome to join FXLeader Academy and develop your own successful investing strategy based on our experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end cfds7-->
+
+        </div>
+        <div class="footer">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="footerLogo">
+                            <img src="images/footerLogo.png" alt="footerLogo" />
+                        </div>
+                        <div class="footerMenue footerMenueAbout">
+                            <ul>
+                                <li><a href="about_us.html">ABOUT</a></li>
+                                <li><a href="about_us.html">About us</a></li>
+                                <li><a href="account_types.html">Account types</a></li>
+                                <li><a href="legal.html">Legal</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footerMenue footerMenueTrader">
+                            <ul>
+                                <li><a href="#">Trader resources</a></li>
+                                <li><a href="#">Assets</a></li>
+                                <li><a href="#">Market research</a></li>
+                                <li><a href="#">Economic calendar</a></li>
+                                <li><a href="#">Trading signals</a></li>
+                            </ul>
+                        </div>
+                        <div class="footerMenue footerMenueEducation">
+                            <ul>
+                                <li><a href="#">Trading signals</a></li>
+                                <li><a href="education.html">How to trade (what is CFD)</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="education.html">Glossary</a></li>
+                                <li><a href="education.html">Videos</a></li>
+                                <li><a href="education.html">Ebooks</a></li>
+                            </ul>
+                        </div>
+                        <div class="footerMenue footerMenueMarketing">
+                            <ul>
+                                <li><a href="marketing.html" class="active">Marketing</a></li>
+                                <li><a href="#">Affiliate program</a></li>
+                                <li><a href="#">Introducing broker</a></li>
+                                <li><a href="#">Master Affiliate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
